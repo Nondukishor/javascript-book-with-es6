@@ -1,8 +1,8 @@
 Free Javascript Book v1.0
 
-1. What is javascript?<br>
-2. History Of JavaScript<br>
-3. About Javascript Motivativation<br>
+1.What is javascript?<br>
+2.History Of JavaScript<br>
+3.About Javascript Motivativation<br>
 4.Basic Syntex<br>
 5.Variable<br>
 6.Value<br>

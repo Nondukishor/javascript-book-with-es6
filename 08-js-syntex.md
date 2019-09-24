@@ -1,11 +1,10 @@
 <h1 align="center">সিনট্যাক্স নিয়ে  যত কথা।</h1>
-
 জাভাস্ক্রিপ্ট একটি লুসলি টাইপ ল্যাঙ্গুয়েজ এইটি অন্যান্য ল্যাঙ্গুয়েজের মতো খুব বেশি case sensitive না এইটির কারনে অবস্য অনেক সময় প্রব্লেম ও পড়তে হয় । তবে "user stric" নামে literal expression ইউস করেলে অনেকটা স্ট্রিক্ট মুডে প্রোগ্রাম রান করানো যায় । তাই বলে ইন্টারনেট ধুম করে এখন সার্চ দিয়ে বইসো না আস্তে আমি এক্সাম্পল দেখাচ্ছি তারপর একটু বুঝে যত ইচ্ছা সার্চ দাও মজা আর মজা পাবেন শুধু। 
 
 জাভাস্ক্রিপ্ট তিন রকম ভাবে আপ্লিকেশনে লিখা যায় 
 
 ```html
-Fisrt Syntex:
+First Syntex:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,16 +12,21 @@ Fisrt Syntex:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Image validator</title>
+    <title> প্রথম প্রোগ্রাম হ্যাঁলো বাংলাদেশ </title>
 </head>
 <body>
    
     <script>
-        console.log('Hello Bangladesh');
-        //alert('Hello Bangladesh')
+        console.log('হ্যাঁলো বাংলাদেশ');
     </script>
 </body>
 </html>
+```
+
+প্রথমে এখানে যা করা হয়েছে সেটি হলো । .html extension সংযোগে যেকোনো নামের একটা ফাইল বানানো হয়েছে সেটা হতে পারে index.html সেটা হতে পারে firstProgramSyntex.html বা পানার পছন্দ অনুযায়ী নামের ।  HTML-5 এর কিছু কোড লিখা হয়েছে । তারপর নিচের দিকে একটু লক্ষ্য করলে দেখতে পারবেন <script> নামের একটা ট্যাগ লিখা হয়েছে  এবং তার মধ্যে কোড লিখা হয়েছে console.log('হ্যাঁলো বাংলাদেশ');  এবার আপনি রান করেন তাইলে  ব্রাউজারে কিছু দেখতে পাবেন না পাবেন কেমন করে আউট পুট তো কনসোলে আছে তাইলে ক্রোমে হলে f12 press করেন আর তাহলে ওপেন হয়ে যাবে কনসোল আর দেখতে পাবেন আউটপুট ।  
+
+```reStructuredText
+হ্যাঁলো বাংলাদেশ
 ```
 
 
@@ -30,24 +34,30 @@ Fisrt Syntex:
 ```html
 Second syntex:
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Image validator</title>
+    <title> দ্বিতীয় প্রোগ্রাম আমি তুমায় ভালবাসি </title>
 </head>
 <body>
     <form>
-        <input type="submit" onclick="return confirm('are you sure to upload picture')" />
-        <!-- inner tag js write -->
+        <button onclick="return confirm('আমি তুমায় ভালবাসি')">
+           ক্লিক করে জেনে নিন  
+        </button>
+        <!--javascript in inner tag -->
     </form>
 </body>
 </html>
 
+```
+
+আগের মতো একটা পছন্দ অনুযায়ী নামে ফাইল বানিয়ে নেওয়া হয়েছে ।  HTML-5 এর কিছু কোড লিখা হয়েছে । তারপর  <from> ট্যাগের ভিতরে লক্ষ্য করলে দেখতে পাবেন <button> নামে আরেকটা ট্যাগ আছে । এই বাটন তো আপনার সার্টের বাটন না এটা HTML এর ট্যাগ বাটন  এটাতে  দিকে একটু লক্ষ্য করলে দেখতে পারবেন onclick attribute এর সাথে কিছু কোড লিখা হইয়েছে  নামের একটা ট্যাগ লিখা হয়েছে  এবং তার মধ্যে কোড লিখা হয়েছে console.log('আমি তুমায় ভালবাসি');  এবার আপনি আগের মত করে রান করেন তাইলে আউটপুট দেখতে পারবেন। 
+
+```reStructuredText
+আমি তুমায় ভালবাসি
 ```
 
 
@@ -61,13 +71,12 @@ Third syntex :
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Image validator</title>
+    <title> তৃতীয় প্রোগ্রাম বাংলাদেশ সবুজ শ্যামল দেশ </title>
 </head>
 <body>
-    <form>
-        <input type="file" name="image" id="image" multiple accept='image/*' >
-    </form>
-    <script src="index.js"></script><!-- js file include from spearate file with .js extenstion-->
+    
+    <script src="index.js"></script>
+    <!-- js file include from spearate file with .js extenstion-->
 </body>
 </html>
 ```
@@ -75,6 +84,13 @@ Third syntex :
 ```javascript
 index.js file
 
-console.log('Hello Bangladesh');
+console.log('বাংলাদেশ সবুজ শ্যামল দেশ');
 ```
 
+এই প্রোগ্রামের জন্য যা করা হয়েছে প্রথমে আগের মতো একটি HTML ফাইল বানানো হইয়েছে তাতে কিছু HTML-5 এর কোড লিখা হয়েছে। কিন্ত একটু কিছু ভিন্ন করা হয়েছে আর সেটা হলো index.js নামে আরেক টা ফাইল করা হয়েছে আর সেটিতে লেখা আছে 
+
+```
+console.log('বাংলাদেশ সবুজ শ্যামল দেশ');
+```
+
+এবার সেই index.js ফাইল টিকে ইমপ্লিমেন্ট করে নিতে হবে কেমন করে করব এত্ত বড় কঠিন কাজ । আরে বাবা এত্ত কঠিন না শুধু লিখতে হবে 13 no লাইনের মতো করে তারপর ইমপ্লিমেন্ট করে দিতে হবে সেই ফাইলটি আর বাস রান করিয়ে নিন । 

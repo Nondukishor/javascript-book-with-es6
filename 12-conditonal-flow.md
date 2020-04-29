@@ -1,4 +1,6 @@
-​                                                               **কন্ডিশনাল কন্ট্রোল ফ্লো**
+   <h2 align="center"> কন্ডিশনাল কন্ট্রোল ফ্লো</h2>
+
+
 
 একজন প্রোগ্রামারের যদি কন্ডিশনাল বা শর্ত যুক্ত লজিক চালাইতে হয় সে ক্ষেত্রে যে টপিকটা বেশি বেশি করে জানা প্রয়োজন সেটা হচ্ছে কন্ডিশনাল কন্ট্রোল ফ্লো স্টেটমেন্ট । তো চলুন কিভাবে এটা কাজ করে
 
@@ -168,4 +170,27 @@ switch (expression) {
 }
 ```
 
+
+
+
+
+Example:hammer:
+
+```javascript
+let age=10;
+switch(age){
+    case age>=10:
+        console.log("Your age is less then 10 or 10");
+        break;
+    case age>=18:
+        console.log("Your age is less then 18 or 18");
+        break;
+    case age>=30:
+        console.log("your are is less then 30 or 30");
+        break;
+    default:
+        console.log("Your age is not define please define your age")
+        break;
+}
+```
 

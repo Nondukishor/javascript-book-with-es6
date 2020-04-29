@@ -201,7 +201,7 @@ const mobile = "+8801xxxxxxxxxxxx"
 
 
 
-**সিম্বলঃ** সিম্বল জাভাস্ক্রিপ্টের একটি বিশেষ ডাটাস্ট্রাকচার 
+**সিম্বলঃ** সিম্বল জাভাস্ক্রিপ্টের একটি বিশেষ ডাটাস্ট্রাকচার ও বিল্ডিন অবজেক্ট । 
 
 ```javascript
 var sym1 = Symbol();
@@ -245,8 +245,6 @@ String.raw()
 
 
 
-
-
 সিম্বলের বিল্ডি ইন প্রোপার্টি গুলো হলোঃ-
 
 ```
@@ -267,9 +265,11 @@ Symbol.toStringTag
 Symbol.unscopables
 ```
 
+
+
 বিল্ড ইন ফাংশন সমূহঃ
 
-```
+```javascript
 Symbol.for()
 Symbol.keyFor()
 Symbol.prototype.toSource()

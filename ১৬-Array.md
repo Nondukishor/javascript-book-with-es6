@@ -124,6 +124,3 @@ console.log(phones);
 ```
 
 
-
-
-

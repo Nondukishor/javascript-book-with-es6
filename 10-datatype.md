@@ -218,7 +218,7 @@ String.prototype
 
 
 
-বিল্ডি ইন মেথডঃ
+বিল্ডি ইন মেথডঃ-
 
 ```
 String.prototype.repeat()

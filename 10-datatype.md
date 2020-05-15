@@ -247,7 +247,7 @@ String.raw()
 
 সিম্বলের বিল্ডি ইন প্রোপার্টি গুলো হলোঃ-
 
-```
+```javascript
 Symbol.asyncIterator
 Symbol.hasInstance
 Symbol.isConcatSpreadable
@@ -264,8 +264,6 @@ Symbol.toPrimitive
 Symbol.toStringTag
 Symbol.unscopables
 ```
-
-
 
 বিল্ড ইন ফাংশন সমূহঃ
 

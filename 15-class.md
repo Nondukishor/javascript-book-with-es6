@@ -6,7 +6,7 @@
 
 ক্লাস কিভাবে লিখে সেটা একটু দেখে নেই ... 
 
-```
+```javascript
 class Book{
   const property_1;
   let property_2;

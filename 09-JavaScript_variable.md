@@ -26,11 +26,11 @@ var varibleName;       			var num=10;
 
 var variable_name;			    var msg="Hello Bangaldesh";
 
-var variablename;				var isActive=true;
+var variablename;				    var isActive=true;
 
-const variableName;				const gender=["Male","Female","Other's"];			
+const variableName;				  const gender=["Male","Female","Other's"];			
 
-let variableName;				let people={name:"Nipu Chakraborty", age:22, mobile:"01827263486"}
+let variableName;				    let people={name:"Nipu Chakraborty", age:22, mobile:"01827263486"}
 ```
 
 উপরোক্ত  যেকোনো নিয়মে ভেরিয়্যাবল লিখা যাবে। এখানে const , let ,var এগুলো হলো কীওয়ার্ড আর এইসবের মাধ্যেমে জাভাস্ক্রিপ্টে ব্যবহৃত যেকোনো ডাটাটাইপের ভ্যালু অ্যাসাইন  করা যাবে । তো সেটা নিয়ে আমি পরের চাপ্টারে আলোচনা করতে যাচ্ছি । 

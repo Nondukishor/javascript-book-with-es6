@@ -98,16 +98,16 @@ console.log(phones);
     </select>
     <script>
       var sonOfGrandFather = [
-        "children1:কেরামত আলী",
-        "children2:রহমত আলী",
-        "children3:আবুল আলী",
-        "children4:আক্কাস আলী",
-        "children5:সিদ্দিক আলী",
-        "children6:বরকত আলী",
-        "children7:মন্টু আলী",
-        "children8:রমজান আলী",
-        "children9:সুজন আলী",
-        "children10:ছোট আলী"
+        "কেরামত আলী",
+        "রহমত আলী",
+        "আবুল আলী",
+        "আক্কাস আলী",
+        "সিদ্দিক আলী",
+        "বরকত আলী",
+        "মন্টু আলী",
+        "রমজান আলী",
+        "সুজন আলী",
+        "ছোট আলী"
       ];
       const sonOfGrandFatherList = document.getElementById("sonOfGrandFather");
       for (let son of sonOfGrandFather) {

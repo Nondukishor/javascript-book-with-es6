@@ -8,9 +8,11 @@
 
 ```javascript
 class Book{
-  const property_1;
-  let property_2;
-  var property_3;
+   constructor(){
+   this.property_1;
+   this.property_2;
+   this.property_3;
+   }
   
   function_1(){
   

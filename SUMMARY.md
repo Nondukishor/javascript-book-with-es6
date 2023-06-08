@@ -7,6 +7,7 @@
 * [জাভাস্ক্রিপ্ট আওতা](03-features.md)
 * [কাদের জন্য জাভাস্ক্রিপ্ট?](04-users.md)
 * [এনভায়রনমেন্ট সেটআপ](05-environment-setup.md)
+* [ব্রাউজার পরিচিতি](undefined.md)
 * [ভাল এডিটর বা আইডিই](06-editor-ide.md)
 * [প্রথম প্রোগ্রাম =হ্যালো বাংলাদেশ](<07-Hello Bangladesh.md>)
 * [সিনট্যাক্স নিয়ে যত কথা।](08-js-syntex.md)
@@ -25,6 +26,5 @@
 * [জে এস স্টাইল](21-js-style.md)
 * [এপিআই কী?](22-what-is-api.md)
 * [ফ্রেমওয়ার্ক লাইব্রেরী নিয়ে খোশ গল্প](23-framework-library-gossip.md)
-* [README](README.md)
+*
 * [জাভাস্ক্রিপ্টের বিল্ডইন কী ওয়ার্ড](keyword.md)
-* [ব্রাউজার পরিচিতি](undefined.md)

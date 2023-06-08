@@ -1,2 +1,3 @@
-![](images/js-book-cover-page.jpg)
+# 00-cover
 
+![](images/js-book-cover-page.jpg)

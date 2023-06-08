@@ -1,4 +1,4 @@
-# README
+# বইয়ের কভার
 
 ![](images/js-book-cover-page.jpg)
 
@@ -13,7 +13,7 @@
 7\. [প্রথম প্রোগ্রাম =হ্যালো বাংলাদেশ ।](07-hello%20Bangladesh.md)\
 8\. [সিনট্যাক্স নিয়ে যত কথা।](08-js-syntex.md)\
 9\. [ভেরি + এবল =ভেরিয়্যাবল কি?](09-JavaScript\_variable.md)\
-10\. [ডেটা টাইপ](10-datatype.md)\
+10\. [ডেটা টাইপ](10-datatype/)\
 11\. [অপারেটর](11-oparator.md)\
 12\. [কন্ডিশনাল কন্ট্রোল ফ্লো](12-conditional-flow.md)\
 13\. [লুপ এবং ইটারেশন](13-loop.md)\

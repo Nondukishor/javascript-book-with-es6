@@ -40,6 +40,7 @@
   * [ইনহেরিটেন্স (Inhertance)](15-class/inhertance.md)
   * [এনসকেপসুলেশন (Encapsulations)](15-class/encapsulations.md)
   * [অবস্ট্রাক্শন(Abstraction)](15-class/abstraction.md)
+  * [পলিমরফিজম (Polymorphism)](15-class/polymorphism.md)
 * [এজ্যাক্স (Ajax)](17-ajax.md)
 * [সেশন](18-session.md)
 * [কুকিস](19-cookies.md)

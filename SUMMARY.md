@@ -35,6 +35,7 @@
   * [বন্ধ ফাংশন (Closures Function)](14-function/closures-function.md)
   * [Currying ফাংশন](14-function/currying.md)
   * [এন এফ ই (NFE)](14-function/nfe.md)
+  * [রিকার্সিভ ফাংশন (Recursive Function)](14-function/recursive-function.md)
 * [ক্লাস](15-class.md)
 * [এজ্যাক্স (Ajax)](17-ajax.md)
 * [সেশন](18-session.md)

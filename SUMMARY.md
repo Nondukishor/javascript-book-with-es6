@@ -34,6 +34,7 @@
   * [উচ্চ আদেশ ফাংশন(Higher Order Function)](14-function/higher-order-function.md)
   * [বন্ধ ফাংশন (Closures Function)](14-function/closures-function.md)
   * [Currying ফাংশন](14-function/currying.md)
+  * [এন এফ ই (NFE)](14-function/nfe.md)
 * [ক্লাস](15-class.md)
 * [এজ্যাক্স (Ajax)](17-ajax.md)
 * [সেশন](18-session.md)

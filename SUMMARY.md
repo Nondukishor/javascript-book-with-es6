@@ -1,6 +1,6 @@
 # Table of contents
 
-* [00-cover](README.md)
+* [Cover](README.md)
 * [সূচিপত্র](00-index.md)
 * [ভূমিকা](01-intro.md)
 * [ইতিহাস](02-history.md)

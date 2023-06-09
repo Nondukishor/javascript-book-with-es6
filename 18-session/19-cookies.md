@@ -1,1 +1,0 @@
-<h1 align="center">কুকিস</h1>

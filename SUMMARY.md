@@ -43,7 +43,7 @@
   * [পলিমরফিজম (Polymorphism)](15-class/polymorphism.md)
 * [এজ্যাক্স (Ajax)](17-ajax.md)
 * [সেশন (Session)](18-session/README.md)
-  * [কুকিস](18-session/19-cookies.md)
+  * [কুকিস](19-cookies.md)
 * [ডোম](20-dom.md)
 * [জে এস স্টাইল](21-js-style.md)
 * [এপিআই কী?](22-what-is-api.md)

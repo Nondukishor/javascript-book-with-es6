@@ -1,7 +1,7 @@
 # Table of contents
 
 * [বইয়ের কভার(Book Cover)](README.md)
-* [সূচিপত্র](00-index.md)
+* [সূচিপত্র(Index)](00-index.md)
 * [ভূমিকা](01-intro.md)
 * [ইতিহাস](02-history.md)
 * [জাভাস্ক্রিপ্ট আওতা](03-features.md)

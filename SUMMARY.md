@@ -1,6 +1,6 @@
 # Table of contents
 
-* [বইয়ের কভার](README.md)
+* [বইয়ের কভার(Book Cover)](README.md)
 * [সূচিপত্র](00-index.md)
 * [ভূমিকা](01-intro.md)
 * [ইতিহাস](02-history.md)

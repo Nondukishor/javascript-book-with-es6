@@ -149,19 +149,19 @@ Switch statement আসলে অনেকটা if else এর মত কাছ
 ```javascript
 switch (expression) {
   case value1:
-  		//statement for value 1
-  		//what should result for statement 1
+  	//statement for value 1
+  	//what should result for statement 1
     break;
   case value2:
      	//statement for value 2
-  		//what should result for statement 2
+  	//what should result for statement 2
     break;
   case valueN:
-  		//statement for value N
-  		//what should result for statement N
+  	//statement for value N
+  	//what should result for statement N
     break;
   default:
- 		//if not match any case then show default statement
+ 	//if not match any case then show default statement
     break;
 }
 ```

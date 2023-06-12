@@ -4,7 +4,19 @@
 
 
 
-### প্রোটোকল এবং স্ট্যান্ডার্ডস (Protocols and Standards):
+## প্রোটোকল এবং স্ট্যান্ডার্ডস (Protocols and Standards):
 
-ব্রাউজার সাধারণত সার্ভারের সাথে কমিনিউকেশন করার জন্য [http](https://en.wikipedia.org/wiki/HTTP) এবং [https](https://en.wikipedia.org/wiki/HTTPS) protocals অনুসরন করে&#x20;
+ব্রাউজার সাধারণত সার্ভারের সাথে কমিনিউকেশন করার জন্য [http](https://en.wikipedia.org/wiki/HTTP) এবং [https](https://en.wikipedia.org/wiki/HTTPS) protocals অনুসরন করে .  এই protocal ইউজার কে ইমেজ ফাইল ও ওয়েব পেইজের বিভিন্ন কন্টেন্ট দেখাতে সাহায্য করে থাকে।&#x20;
+
+## **ব্রাঊজারে কি কি থাকে (**What is in the browser?)
+
+1. #### **User Interface**
+2. #### **Browser Engine**
+3. **Rendering engine**
+4. **Networking**
+5. **UI-Backend**
+6. **Javascript Interpreter**
+7. **Data Persistant**
+
+
 

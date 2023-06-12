@@ -75,5 +75,29 @@ const Animal = class AnimalClass {
 
 ক্লাস শুরু হয় কিন্তু  ২য় বন্ধনি বা curly brackets <mark style="color:green;">`{ }`</mark>দিয়ে। এর মাঝেই আপনাকে লিখতে হবে আপনি ক্লাসে যে কাজ গুলো করতে চান । সেইটা হতে পারে মেম্বার ফাংশন অথবা কন্সট্রাক্টর ফাংশন।চলুন আরেকটা উদাহরণ দেখে নেইঃ&#x20;
 
-```
+```javascript
+class Person{
+  //constructor function
+  constructor(name, age, height){
+     this.name = name;
+     this.age = age;
+     this.height = height;
+  }
+  
+  //member function which show name of person
+  showName(){
+    return this.name;
+  }
+  
+  //member function which show age of person
+  showAge(){
+    return this.age;
+  }
+  
+  //member function which show height of person
+  showHeight(){
+    return this.height;
+  }
+  
+}
 ```

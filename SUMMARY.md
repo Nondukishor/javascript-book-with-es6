@@ -6,7 +6,7 @@
 * [ইতিহাস](02-history.md)
 * [জাভাস্ক্রিপ্ট আওতা](03-features.md)
 * [কাদের জন্য জাভাস্ক্রিপ্ট?](04-users.md)
-* [এনভায়রনমেন্ট সেটআপ](05-environment-setup.md)
+* [এনভায়রনমেন্ট সেটআপ](environment-setup.md)
 * [ব্রাউজার পরিচিতি](browser-intro.md)
 * [ভাল এডিটর বা আইডিই](06-editor-ide.md)
 * [প্রথম প্রোগ্রাম = হ্যালো বাংলাদেশ](<07-Hello Bangladesh.md>)

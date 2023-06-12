@@ -18,5 +18,13 @@
 6. **Javascript Interpreter**
 7. **Data Persistant**
 
+## Features of a Web Browser
+
+1. **Home button**
+2. **Address bar**
+3. **Refresh button**
+4. **Bookmarks**
+5. **Tabbed browsing**
+
 
 

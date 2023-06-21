@@ -49,11 +49,11 @@ Second syntex:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> দ্বিতীয় প্রোগ্রাম আমি তুমায় ভালবাসি </title>
+    <title> দ্বিতীয় প্রোগ্রাম আমি তোমায় ভালবাসি </title>
 </head>
 <body>
     <form>
-        <button onclick="return confirm('আমি তুমায় ভালবাসি')">
+        <button onclick="return confirm('আমি তোমায় ভালবাসি')">
            ক্লিক করে জেনে নিন  
         </button>
         <!--javascript in inner tag -->

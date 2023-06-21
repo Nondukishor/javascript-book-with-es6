@@ -2,7 +2,7 @@
 
 ```javascript
 (function () {
-    console.log(greeting);
+    console.log("Hello I am IIFE");
 })()
 ```
 

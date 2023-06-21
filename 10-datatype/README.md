@@ -57,11 +57,7 @@ Potato
 ```javascript
 console.log( typeof chips );
 > string
-console.log( typeof tentaka);
-> number 
 ```
 
 তাহলে আশা করি আপনি বুঝতে পেরেছেন প্রিমিটিভ ডাটাটাইপ কাকে বলে এবং সেটা কেন পরিবর্তনযোগ্য নয়।
-
-এবার আসুন আমরা আরেকটু এইডাটা টাইপ গুলো নিয়ে আলোচনা করে নেই
 

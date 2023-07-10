@@ -22,6 +22,7 @@
   * [সিম্বল (Symbol)](10-datatype/symbol.md)
   * [অব্জেক্ট (Object)](10-datatype/object.md)
   * [অ্যারে(Array)](10-datatype/16-array.md)
+  * [প্রিমিটিভ ডাটা টাইপ](10-datatype/undefined-1.md)
 * [অপারেটর](11-oparator.md)
 * [কন্ডিশনাল কন্ট্রোল ফ্লো](12-conditonal-flow.md)
 * [লুপ এবং ইটারেশন](13-loop/README.md)

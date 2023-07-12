@@ -13,6 +13,8 @@ function NameOfFunction(argument){
 }
 ```
 
+Example:
+
 ```javascript
 function add(num1, num2) {
   const sum = num1 * num2

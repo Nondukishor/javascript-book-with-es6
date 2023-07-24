@@ -1,6 +1,6 @@
 # এন এফ ই (NFE)
 
-```
+```javascript
 function ask(question, ...handlers) {
   let isYes = confirm(question);
 

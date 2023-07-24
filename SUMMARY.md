@@ -47,7 +47,6 @@
   * [এনসকেপসুলেশন (Encapsulations)](15-class/encapsulations.md)
   * [অবস্ট্রাক্শন(Abstraction)](15-class/abstraction.md)
   * [পলিমরফিজম (Polymorphism)](15-class/polymorphism.md)
-  * [ক্লাস প্রোপার্টি (Class Property)](15-class/class-property.md)
 * [এজ্যাক্স (Ajax)](ajax.md)
 * [ওয়েব স্টোরেজ (Web Storage)](web-storeage/README.md)
   * [কুকিস(Cookies)](web-storeage/19-cookies.md)

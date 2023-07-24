@@ -51,7 +51,7 @@
 * [ওয়েব স্টোরেজ (Web Storage)](web-storeage/README.md)
   * [কুকিস(Cookies)](web-storeage/19-cookies.md)
   * [সেশন (Session)](web-storeage/session.md)
-* [ডোম](20-dom.md)
+* [জে এস ডোম(JS DOM)](js-dom.md)
 * [জে এস স্টাইল](21-js-style.md)
 * [এপিআই কী?](22-what-is-api.md)
 * [ফ্রেমওয়ার্ক লাইব্রেরী নিয়ে খোশ গল্প](23-framework-library-gossip.md)

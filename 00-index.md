@@ -17,10 +17,10 @@
 15. [ফাংশন](14-function/)
 16. [ক্লাস](15-class/)
 17. [অ্যারে](16-array.md)
-18. [এজ্যাক্স](20-dom.md)
+18. [এজ্যাক্স](js-dom.md)
 19. [সেশন](web-storeage/)
 20. [কুকিস](web-storeage/19-cookies.md)
-21. [ডোম](20-dom.md)
+21. [ডোম](js-dom.md)
 22. [জাভাস্ক্রিপ্ট স্টাইল](21-js-style.md)
 23. [এপি আই কি কেন ?](22-what-is-api.md)
 24. [ফ্রেম ওয়ার্ক লাইব্রেরী নিয়ে খোশ গল্প](23-framework-library-gossip.md)\

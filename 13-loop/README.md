@@ -17,12 +17,13 @@
 1. map
 2. filter
 3. find
-4. forEach
-5. each
-6. every
-7. some
-8. flatMap
-9. flat
-10. reduceRight
-11. reduceLeft
+4. reduce
+5. forEach
+6. each
+7. every
+8. some
+9. flatMap
+10. flat
+11. reduceRight
+12. reduceLeft
 

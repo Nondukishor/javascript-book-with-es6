@@ -1,6 +1,7 @@
 # Table of contents
 
 * [বইয়ের কভার(Book Cover)](README.md)
+  * [Baisc notes](readme/baisc-notes.md)
 * [সূচিপত্র(Index)](00-index.md)
 * [ভূমিকা](01-intro.md)
 * [ইতিহাস](02-history.md)

@@ -4,3 +4,28 @@
 
 এই যে গুল্প টা বললাম এইটাই মূলত ক্লাসের মেম্বার ফাংশনের গল্প। এইখানে **ব্ল্যাকবক্স** গ্রুপটাকে যদি ক্লাস ভাবি আর টিম মেম্বার কে ফাংশন তাহলে তাদের কাজ গুলো হচ্ছে তাদের ফাংশনের কোড । আর তাদের কাজ গুলো শেয়ার করা প্রক্রিয়া গুলো হচ্ছে এক্সেস মডিফায়ার।&#x20;
 
+এবার আসুন আমরা একটা কোডিং উদাহরন দেখি।
+
+```javascript
+class BlackBox{
+   constructor(){
+     return "inital instruction during create team"
+   }
+   
+   member1(){
+      return "make coffee"
+   }
+   
+   member2(){
+      return "collect sugar and milk"
+   }
+   
+   #member3(){
+      return "collect the secret of coffee"
+   }
+      
+   _member4(){
+      return "buy cups if need and check every day"
+   }
+}
+```

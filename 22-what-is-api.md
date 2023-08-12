@@ -1,11 +1,7 @@
-<h1 align="center"> এপিআই কী? </h1>
+# এপিআই কী?
 
-upcoming topic
+এপিআই এর  পূর্ণ অর্থ হল   **Application Programming Interface**  যার মানে হল আপনি প্রোগ্রাম করে কিছু একটা লিখবেন যেইটা প্রয়োজন অনুযায়ী সবাই বব্যাবহার  করবে&#x20;
 
-What is api?
-History 
-Why should use it?
+What is api? History Why should use it?
 
-RESTApi
-SOAPApi
-RPCAPi
+RESTApi SOAPApi RPCAPi

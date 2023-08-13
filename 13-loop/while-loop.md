@@ -1,6 +1,6 @@
 # ও্যাইয়ল  লুপ (While Loop)
 
-ও্যাইয়ল লুপ কাঠামোঃ-
+ও্যাইয়ল লুপের  কাঠামোঃ-
 
 ```javascript
 while(condtion){
@@ -8,7 +8,7 @@ while(condtion){
 }
 ```
 
-ডু ও্যাইয়ল লুপ কাঠামোঃ-
+ডু ও্যাইয়ল লুপের  কাঠামোঃ-
 
 ```javascript
 //while loop syntex

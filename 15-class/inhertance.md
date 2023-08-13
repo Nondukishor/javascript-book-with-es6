@@ -30,4 +30,4 @@ let myDivision = new Division("Bangladesh", "Chittagong");
 console.log(myDivision.show());
 ```
 
-উপরের উদাহরণ টা যদি লক্ষ্য করেন তাহলে দেখতেই পাচ্ছেন **Country** নামে  এক
+উপরের উদাহরণ টা যদি লক্ষ্য করেন তাহলে দেখতেই পাচ্ছেন **Country** নামে  একটি ক্লাস লিখেছি ঐখানে আমি দুইটা ফাংশন লিখে তার মাঝে এক

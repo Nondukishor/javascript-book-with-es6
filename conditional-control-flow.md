@@ -147,9 +147,9 @@ else{
 
 ব্যাখ্যাঃ- এখানে যেটা ঘটেছে সেটা হচ্ছে 'mark' নামে একটি ভেরিয়্যাবল নেওয়া হয়েছে এবং প্রথম ধাপে চেক করা হয়েছে আসলে কি mark এর জন্য মান 80 কিনা যদি তাই হয় তাহলে কনসোলে দেখাতে বলেছি 'A+'। টিকে একি ভাবে পরবর্তী ধাপে 70 হলে 'A' এভাবে পরবর্তী ধাপ গুলো দেখাতে বলেছি কিন্তু একদম শেষে আমি যা করেছি সেটা হলো এখানে যা বলেছি মানে তা যদি সত্য না হয় তাহলে যেন else এর মধ্যে যা আছে তাই দেখায় । মানে 'F' দেখায়।
 
-**৪। switch statement**
+**৪। **<mark style="color:red;">**switch**</mark>** statement**
 
-Switch statement আসলে অনেকটা if else এর মত কাছ করে তবে পার্থক্য হলো এটা কোন একটা মানের উপর নির্ভর করে case বাচাই করে এবং যে কেইসের সাথে মিলে যা সেই case এর কোড গুলোর নির্দেশনা অনুযায়ী কাজ করে।
+<mark style="color:red;">**switch**</mark> statement আসলে অনেকটা if else এর মত কাছ করে তবে পার্থক্য হলো এটা কোন একটা মানের উপর নির্ভর করে case বাচাই করে এবং যে কেইসের সাথে মিলে যা সেই case এর কোড গুলোর নির্দেশনা অনুযায়ী কাজ করে।আপনি  <mark style="color:red;">**switch**</mark> statement কে অনেকটা আমাদের লাইটের সুইচ এর মতো করে চিন্তা করতে পারেন পার্থক্য শুধু একটাই। লাইটের সুইচে দুইটা অপশন থাকে কিন্তু প্রগ্রামিং সুইচে আপনি অনেক অপশন যুক্ত করতে পারবেন।&#x20;
 
 **সিনট্যাক্স:-**
 
@@ -175,11 +175,43 @@ switch (expression) {
 
 Example:hammer:
 
-```javascript
-let age=10;
-switch(age){
+<pre class="language-javascript"><code class="lang-javascript"><strong>let age=10;
+</strong>switch(age){
     case age>=10:
         console.log("Your age is less then 10 or 10");
+        break;
+    case age>=18:
+        console.log("Your age is less then 18 or 18");
+        break;
+    case age>=30:
+        console.log("your are is less then 30 or 30");
+        break;
+    default:
+        console.log("Your age is not define please define your age")
+        break;
+}
+</code></pre>
+
+উপরের উদাহরনে দেখা যাচ্ছে আমি প্রথমে এইখানে একটা variable নিয়েছি তারপর সেই  variable এর উপর ভিত্তি করে বিভিন্ন case নিয়েছি সবশেষে একটা default case নিয়েছি আর প্রথমেই লক্ষ্য করলেই দেখতে পাবেন switch একটা প্যারামিটার নেয়। আর সেই প্যারামিটারের উপর ভিত্তি করে case এক্সিকিউট হয় আর যদি কোনটাই না মিলে তাহলে default case ব্লক এক্সিকিউট হয়।&#x20;
+
+আপনি চাইলে নেস্টেট সুইচ কেস লিখতে পারেন নিচে একটা উদাহরন দেখানো হলো।&#x20;
+
+
+
+```javascript
+let lucky_man = {
+      name: "Nipu Chakraborty",
+      serial_no: "777777000077777"
+      price: 10000
+  },
+ 
+switch(lucky_man){
+    case lucky_man.name.startsWith('N') === true:
+        swich(lucky_man.serial_no){
+           case "777777000077777":
+                console.log("First lucky man")
+            break;
+        }
         break;
     case age>=18:
         console.log("Your age is less then 18 or 18");

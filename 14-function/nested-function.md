@@ -7,7 +7,7 @@
 ```javascript
 function equation(x){
    const result = ( x ^ 2 ) - 3
-   return function equation(){
+   return function rootCalculate(){
          return Math.sqrt(result)
    }
 }

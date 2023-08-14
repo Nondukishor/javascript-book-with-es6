@@ -200,27 +200,48 @@ Example:hammer:
 
 ```javascript
 let lucky_man = {
-      name: "Nipu Chakraborty",
-      serial_no: "777777000077777"
-      price: 10000
-  },
- 
-switch(lucky_man){
-    case lucky_man.name.startsWith('N') === true:
-        swich(lucky_man.serial_no){
-           case "777777000077777":
-                console.log("First lucky man")
-            break;
+    name: "Nipu Chakraborty",
+    serial_no: "777777000077777",
+    price: 10000
+};
+
+switch (true) {
+    case lucky_man.name.startsWith('N'):
+        switch (lucky_man.serial_no) {
+            case "777777000077777":
+                console.log("First lucky man " + lucky_man.name + ", you won " + lucky_man.price);
+                break;
+            default:
+                console.log("No one lucky here");
+                break;
         }
         break;
-    case age>=18:
-        console.log("Your age is less then 18 or 18");
+    
+    case lucky_man.name.startsWith("R"):
+        switch (lucky_man.serial_no) {
+            case "777777000077778":
+                console.log("2nd lucky man " + lucky_man.name + ", you won " + lucky_man.price);
+                break;
+            default:
+                console.log("No one lucky here");
+                break;
+        }
         break;
-    case age>=30:
-        console.log("your are is less then 30 or 30");
+
+    case lucky_man.name.startsWith("P"):
+        switch (lucky_man.serial_no) {
+            case "777777000077779":
+                console.log("3rd lucky man " + lucky_man.name + ", you won " + lucky_man.price);
+                break;
+            default:
+                console.log("No one lucky here");
+                break;
+        }
         break;
+    
     default:
-        console.log("Your age is not define please define your age")
+        console.log("No one lucky here");
         break;
 }
+
 ```

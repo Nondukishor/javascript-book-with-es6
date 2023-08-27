@@ -52,6 +52,8 @@ const numbers = [1,2,3,4,5,6,7,8]
 
 **map:** একটা কলব্যাক ফাংশন নেয় এবং সেই আসলে অ্যারে  এর প্রতিটা ইলিমেন্টের মধ্য দিয়ে যাবে এবং আপনি যে  অ্যারেটা দিয়েছেন সেইটার উপর ভিত্তি করে আপনাকে একটা নতুন অ্যারে ফেরত দিবে। মনে রাখা শ্রেয় যে আপনাকে যে অ্যারে ফেরত দিবে সেইটার length  আর  map কে দেওয়া অ্যারে  এর length কিন্তু সমান হবে।&#x20;
 
+উদাহরনঃ&#x20;
+
 ```javascript
 const doubledNumbers = numbers.map(number => number * 2);
 console.log(doubledNumbers); 
@@ -60,12 +62,16 @@ console.log(doubledNumbers);
 
 **filter:**  এইটা ও একটা কলব্যাক ফাংশন নিবে এবং আপানার ফাংশনের ভ্যালু যে সমস্ত স্টেটমেন্টের জন্য সত্য হবে সেসকল উপদানের জন্য নতুন একটি অ্যারে ফেরত বা রিটার্ন দিবে।&#x20;
 
+উদাহরনঃ
+
 ```javascript
 const evenNumbers = numbers.filter(number => number % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4]
 ```
 
-**find:**&#x20;
+**find:**  এইটা আগের মত করে একটা কলব্যাক ফাংশন নিবে কিন্তু যে স্টেটমেন্টের জন্য সত্য শুধু মাত্র সেই ভ্যালু টা ফেরত দিবে বা রির্টান করবে
+
+উদাহরনঃ&#x20;
 
 ```javascript
 const firstEven = numbers.find(number => number % 2 === 0);

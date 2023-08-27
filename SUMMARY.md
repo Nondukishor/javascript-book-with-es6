@@ -29,7 +29,7 @@
 * [লুপ এবং ইটারেশন](13-loop/README.md)
   * [🔃 ফর লুপ(For loop)](13-loop/for-loop.md)
   * [🔃 ও্যাইয়ল  লুপ (While Loop)](13-loop/while-loop.md)
-  * [💻 পুনারাবৃত্তি (Iteration)](13-loop/iteration.md)
+  * [📿 পুনারাবৃত্তি (Iteration)](13-loop/iteration.md)
 * [ফাংশন(Function)](14-function/README.md)
   * [রেগুলার ফাংশন (Regular Function)](14-function/regular-function.md)
   * [অ্যারো ফাংশন(Arrow Function)](14-function/arrow-function.md)

@@ -41,3 +41,83 @@ sessionStorage.removeItem("key");
 ```
 sessionStorage.clear();
 ```
+
+কিছু উদাহারন দেখে নেওয়া যাক।&#x20;
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Client-side Session Example</title>
+</head>
+<body>
+  <button id="loginBtn">Login</button>
+  <button id="logoutBtn">Logout</button>
+  <div id="profile"></div>
+
+  <script>
+    // Function to set session data
+    function setSession(key, value) {
+      sessionStorage.setItem(key, value);
+    }
+
+    // Function to get session data
+    function getSession(key) {
+      return sessionStorage.getItem(key);
+    }
+
+    // Function to clear session data
+    function clearSession(key) {
+      sessionStorage.removeItem(key);
+    }
+
+    // Function to handle login
+    function handleLogin() {
+      setSession('username', 'johnDoe');
+      updateProfile();
+    }
+
+    // Function to handle logout
+    function handleLogout() {
+      clearSession('username');
+      updateProfile();
+    }
+
+    // Function to update profile information
+    function updateProfile() {
+      const profileDiv = document.getElementById('profile');
+      const username = getSession('username');
+
+      if (username) {
+        profileDiv.innerHTML = `Welcome, ${username}!`;
+      } else {
+        profileDiv.innerHTML = 'Please log in.';
+      }
+    }
+
+    // Attach event listeners
+    const loginBtn = document.getElementById('loginBtn');
+    const logoutBtn = document.getElementById('logoutBtn');
+
+    loginBtn.addEventListener('click', handleLogin);
+    logoutBtn.addEventListener('click', handleLogout);
+
+    // Initial profile update
+    updateProfile();
+  </script>
+</body>
+</html>
+
+```
+
+আপনি session কোথায় কোথায় ব্যাবহার করতে পারেন?&#x20;
+
+* User Authentication
+* User Authorization
+* Shopping cart
+* From data Persistence
+* User Preference and settings
+* User activity Tracking
+* Mutli step Workflow
+* Caching Data
+* tempory CSRF token

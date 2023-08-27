@@ -85,3 +85,17 @@ console.log(sum); // Output: 15
 const allEven = numbers.every(number => number % 2 === 0);
 console.log(allEven); // Output: true
 ```
+
+**some:**
+
+```javascript
+const hasEven = numbers.some(number => number % 2 === 0);
+console.log(hasEven); // Output: true
+```
+
+**reduceRight:**
+
+```javascript
+const result = numbers.reduceRight((acc, num) => acc - num, 0);
+console.log(result); // Output: -2 (0 - 4 - 3 - 2 - 1)
+```

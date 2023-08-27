@@ -58,7 +58,7 @@ console.log(doubledNumbers);
 // Output: [2, 4, 6, 8, 10]
 ```
 
-**filter:**
+**filter:**  এইটা ও একটা কলব্যাক ফাংশন নিবে এবং আপানার ফাংশনের ভ্যালু যে সমস্ত স্টেটমেন্টের জন্য সত্য হবে সেসকল উপদানের জন্য নতুন একটি অ্যারে ফেরত বা রিটার্ন দিবে।&#x20;
 
 ```javascript
 const evenNumbers = numbers.filter(number => number % 2 === 0);

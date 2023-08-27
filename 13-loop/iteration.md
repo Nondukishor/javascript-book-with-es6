@@ -42,7 +42,7 @@ Output:
 const numbers = [1,2,3,4,5,6,7,8]
 ```
 
-**forEach:**&#x20;
+**forEach**  একটা কলব্যাক ফাংশন নেয় এবং সেই আসলে প্রতিটা ইলিমেন্টের মধ্য দিয়ে যাবে কিন্তু কোন কিছু আপনাকে ফেরত বা রিটার্ন দিবে না। মানে হলো সে আপনাকে নতুন কোন অ্যারে দিবে না।&#x20;
 
 <pre class="language-javascript"><code class="lang-javascript"><strong>numbers.forEach(number => {
 </strong>  console.log(number * 2);

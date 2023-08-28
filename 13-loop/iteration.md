@@ -78,10 +78,14 @@ const firstEven = numbers.find(number => number % 2 === 0);
 console.log(firstEven); // Output: 2
 ```
 
-**reduce:**
+**reduce:** এইটা দুইটা প্যারামিটার নেয় প্রথম প্যারামিটার হিসেবে reduce একটা কলব্যাক ফাংশন নেয় এবং ঐ কলব্যাক ফাংশন দুইটা প্যারামিটার নেয় আর একটা হচ্ছে accumulator আরেকটা হচ্ছে currentvalue আর ২য় প্যারামিটার টা হচ্ছে initialvalue ।&#x20;
+
+উদাহরনঃ&#x20;
 
 ```javascript
-const sum = numbers.reduce((accumulator, currentNumber) => accumulator + currentNumber, 0);
+const sum = numbers.reduce((accumulator, currentNumber) =>{
+   return accumulator + currentNumber, 0);
+}
 console.log(sum); // Output: 15
 ```
 

@@ -1,6 +1,6 @@
 # কুকিস(Cookies)
 
-```
+```javascript
 <!DOCTYPE html>
 <html>
 <head>

@@ -19,4 +19,4 @@ function readData(method,url) {
 
 এখানে যা ঘটেছে তা একটু বুঝে নেই ।
 
-এখানে আমি যা করেছি তা হলো আমি একটা ফাংশন বানিয়েছি যেখানে আমি দুই টা প্যারামিটার পাস করেছি method \[GET,POST ...etc] ও url নামে । এর পর আমি xhttp নামে একটি অবজেক্ট বানিয়েছি । এরপর xhttp থেকে onreadystatechange নামে মেথডে কন্ডিশন চালিয়ে চেক করে নিলাম readyState 4 এবং status 200 কিনা যদি হয় তাহলে console.log() এই মেথড এর মাধ্যমে রেস্পন্স কে দেখানো হয়েছে তারপর xhttp থেকে open মেথড এ method,url ,true\[বিদ্রঃ true value টি async এর জন্য এটা false করে দিলে sync এর অনুসারে কাজ করে ] এর পর xhttp থেকে রিকুয়েস্ট সেন্ট করা হয়েছে ।
+এখানে আমি যা করেছি তা হলো আমি একটা ফাংশন বানিয়েছি যেখানে আমি দুই টা প্যারামিটার পাস করেছি method \[GET,POST ...etc] ও url নামে । এর পর আমি xhttp নামে একটি অবজেক্ট বানিয়েছি । এরপর xhttp থেকে onreadystatechange নামে মেথডে কন্ডিশন চালিয়ে চেক করে নিলাম readyState 4 এবং status 200 কিনা যদি হয় তাহলে console.log() এই মেথড এর মাধ্যমে রেস্পন্স কে দেখানো হয়েছে তারপর xhttp থেকে open মেথড এ method,url ,true\[বিদ্রঃ true value টি async এর জন্য এটা false করে দিলে sync এর অনুসারে কাজ করে ] এর পর xhttp থেকে request send করা হয়েছে ।

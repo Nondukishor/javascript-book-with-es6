@@ -89,7 +89,9 @@ const sum = numbers.reduce((accumulator, currentNumber) =>{
 console.log(sum); // Output: 15
 ```
 
-**every:**
+**every:** এইটা একটা কলব্যাক ফাংশন নেয় এবং ঐ ফাংশনের স্টেটমেন্টে লিখা প্রত্যকটি উপদানের জন্য যদি সত্য হয় তাহলে every true রিটার্ন করে অথবা false রিটার্ন করে ।&#x20;
+
+উদাহরনঃ&#x20;
 
 ```javascript
 const allEven = numbers.every(number => number % 2 === 0);

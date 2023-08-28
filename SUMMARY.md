@@ -26,7 +26,7 @@
     * [অ্যারে(Array)](10-datatype/non-primitive-data-type/16-array.md)
 * [অপারেটর](11-oparator.md)
 * [কন্ডিশনাল কন্ট্রোল ফ্লো(Conditional Control flow)](conditional-control-flow.md)
-* [লুপ এবং ইটারেশন](13-loop/README.md)
+* [লুপ এবং ইটারেশন(Loop & Iteration)](13-loop/README.md)
   * [🔃 ফর লুপ(For loop)](13-loop/for-loop.md)
   * [🔃 ও্যাইয়ল  লুপ (While Loop)](13-loop/while-loop.md)
   * [📿 পুনারাবৃত্তি (Iteration)](13-loop/iteration.md)

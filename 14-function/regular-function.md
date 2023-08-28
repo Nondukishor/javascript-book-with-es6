@@ -18,7 +18,7 @@ function nameOfFunction(argument){
 ```javascript
 function add(num1, num2) {
   this.sum = num1 * num2
-  return sum
+  return this.sum
 }
 ```
 

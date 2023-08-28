@@ -79,51 +79,39 @@ const language = {
 
 
 ```javascript
-// Creating an object
 const person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 30,
-  hobbies: ["reading", "gaming", "swimming"],
+  firstName: "Nipu",
+  lastName: "Chakraborty",
+  age: 27,
+  hobbies: ["reading", "writing", "programming"],
+};
+
+const additionalInfo = {
+  nationality: "Bangladeshi",
+  occupation: "Software Engineer",
 };
 
 // Object.keys() - Retrieve object keys as an array
 const keys = Object.keys(person);
-console.log("Keys:", keys); // Output: ["firstName", "lastName", "age", "hobbies"]
+console.log("Keys:", keys);
 
 // Object.values() - Retrieve object values as an array
 const values = Object.values(person);
-console.log("Values:", values); // Output: ["John", "Doe", 30, ["reading", "gaming", "swimming"]]
+console.log("Values:", values);
 
 // Object.entries() - Retrieve key-value pairs as arrays within an array
 const entries = Object.entries(person);
 console.log("Entries:", entries);
-// Output:
-// [["firstName", "John"], ["lastName", "Doe"], ["age", 30], ["hobbies", ["reading", "gaming", "swimming"]]]
 
 // Object.assign() - Merge properties from multiple objects
-const additionalInfo = {
-  nationality: "American",
-  occupation: "Software Engineer",
-};
-
 const mergedPerson = Object.assign({}, person, additionalInfo);
 console.log("Merged Person:", mergedPerson);
-// Output:
-// {
-//   firstName: "John",
-//   lastName: "Doe",
-//   age: 30,
-//   hobbies: ["reading", "gaming", "swimming"],
-//   nationality: "American",
-//   occupation: "Software Engineer"
-// }
 
 // Object.hasOwnProperty() - Check if an object has a specific property
 const hasAge = person.hasOwnProperty("age");
-console.log("Has age property?", hasAge); // Output: true
+console.log("Has age property?", hasAge);
 const hasGender = person.hasOwnProperty("gender");
-console.log("Has gender property?", hasGender); //
+console.log("Has gender property?", hasGender);
 
 ```
 

@@ -98,14 +98,18 @@ const allEven = numbers.every(number => number % 2 === 0);
 console.log(allEven); // Output: true
 ```
 
-**some:**
+**some:** একটা কলব্যাক ফাংশন নেই এবং ঐ ফাংশনে লিখা কোন একটা স্টেটমেন্ট ও যদি সত্য হয় তাহলে true রিটার্ন করে নতুবা false রির্টান করে।&#x20;
+
+উদাহরনঃ&#x20;
 
 ```javascript
 const hasEven = numbers.some(number => number % 2 === 0);
 console.log(hasEven); // Output: true
 ```
 
-**reduceRight:**
+**reduceRight:**  এইটা একটা কলব্যাক ফাংশন নেই এবং reduce টিক উল্টো কাজ করে মানে সে অ্যারে এর শেষ থাকে কাজ করে এইখানে accumulator শেষ থেকে এবং ভ্যালু হোল্ড করে&#x20;
+
+উদাহরনঃ&#x20;
 
 ```javascript
 const result = numbers.reduceRight((acc, num) => acc - num, 0);

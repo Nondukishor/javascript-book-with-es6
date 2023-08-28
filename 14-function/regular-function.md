@@ -40,3 +40,42 @@ output:
 Cat {name: 'Coco'}
 ```
 
+প্রটোটাইপ উদাহরনঃ
+
+```javascript
+// Constructor function for a basic Shape
+function Shape(x, y) {
+    this.x = x;
+    this.y = y;
+}
+
+// Adding a method to the Shape prototype
+Shape.prototype.displayCoords = function() {
+    console.log(`Coordinates: (${this.x}, ${this.y})`);
+};
+
+// Constructor function for a Circle, inheriting from Shape
+function Circle(x, y, radius) {
+    // Call the parent constructor using 'call' to set 'this' appropriately
+    Shape.call(this, x, y);
+    this.radius = radius;
+}
+
+// Inherit from Shape's prototype
+Circle.prototype = Object.create(Shape.prototype);
+
+// Add a method specific to Circle
+Circle.prototype.calculateArea = function() {
+    return Math.PI * this.radius * this.radius;
+};
+
+// Create instances
+const myShape = new Shape(10, 20);
+const myCircle = new Circle(30, 40, 5);
+
+// Call methods
+myShape.displayCoords();   // Output: Coordinates: (10, 20)
+myCircle.displayCoords();  // Output: Coordinates: (30, 40)
+console.log(myCircle.calculateArea()); // Output: 78.53981633974483
+
+```

@@ -40,7 +40,7 @@ output:
 Cat {name: 'Coco'}
 ```
 
-প্রটোটাইপ উদাহরনঃ
+Prototype উদাহরনঃ
 
 ```javascript
 // Constructor function for a basic Shape

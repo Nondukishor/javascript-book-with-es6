@@ -55,6 +55,7 @@
 * [ওয়েব স্টোরেজ (Web Storage)](web-storeage/README.md)
   * [বিস্কিটের টুকরো (Cookies)](web-storeage/19-cookies.md)
   * [সেশন (Session)](web-storeage/session.md)
+* [ওয়েভ এপি আই(Web API)](web-api.md)
 * [জে এস ডোম(JS DOM)](js-dom.md)
 * [জে এস স্টাইল (JS Style)](21-js-style.md)
 * [এপিআই কী? (What is API)](22-what-is-api.md)

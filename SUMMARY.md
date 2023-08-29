@@ -48,6 +48,7 @@
   * [অবস্ট্রাক্শন(Abstraction)](15-class/abstraction.md)
   * [পলিমরফিজম (Polymorphism)](15-class/polymorphism.md)
 * [এজ্যাক্স (Ajax)](ajax.md)
+* [আনয়ন করা(fetch)](fetch.md)
 * [ওয়েব স্টোরেজ (Web Storage)](web-storeage/README.md)
   * [কুকিস(Cookies)](web-storeage/19-cookies.md)
   * [সেশন (Session)](web-storeage/session.md)

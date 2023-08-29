@@ -53,8 +53,8 @@ console.log(even); // Output: [2, 4]
 
 ```javascript
 const person = {
-  firstName: "John",
-  lastName: "Doe",
+  firstName: "Nipu",
+  lastName: "Chakraborty",
   fullName: function() {
     // Using traditional function to access object properties
     return this.firstName + " " + this.lastName;
@@ -66,7 +66,11 @@ const person = {
   }
 };
 
-console.log(person.fullName());     // Output: John Doe
+console.log(person.fullName());     // Output: Nipu Chakraborty
 console.log(person.arrowFullName()); // Output: undefined undefined
 
 ```
+
+এইখানে দেখতেই পাচ্ছেন রেগুলার ফাংশনের this কিন্তু ঐ অবজেক্ট এর স্কোপকেই বুঝাচ্ছে। আর অ্যারো ফাংশন কিন্তু ঐ অবজেক্ট স্কোপ কে বুঝাচ্ছে না।&#x20;
+
+তাছাড়া রেগুলার ফাংশন কে কিন্তু কন্সট্রাক্টর ফাংশন হিসবেও ব্যবহার করা যায় কিন্তু অ্যারো ফাংশন কে কন্সট্রাক্টর ফাংশন হিসেবে ব্যবহার করা যায় না।&#x20;

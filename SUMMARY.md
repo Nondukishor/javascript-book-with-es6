@@ -53,7 +53,7 @@
 * [প্রতিশ্রুতি(Promise)](promise.md)
 * [অসমনিয়ত ও অপেক্ষা (Async & Await)](async-and-await.md)
 * [ওয়েব স্টোরেজ (Web Storage)](web-storeage/README.md)
-  * [কুকিস(Cookies)](web-storeage/19-cookies.md)
+  * [বিস্কিটের টুকরো (Cookies)](web-storeage/19-cookies.md)
   * [সেশন (Session)](web-storeage/session.md)
 * [জে এস ডোম(JS DOM)](js-dom.md)
 * [জে এস স্টাইল (JS Style)](21-js-style.md)

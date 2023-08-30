@@ -1,6 +1,6 @@
-# Currying ফাংশন
+# সংবাহন ক্রিয়াকলাপ (Currying function)
 
-```
+```javascript
 function curry(func) {
 
   return function curried(...args) {

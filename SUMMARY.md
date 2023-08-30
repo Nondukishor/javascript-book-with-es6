@@ -42,7 +42,7 @@
   * [এন এফ ই (NFE)](14-function/nfe.md)
   * [রিকার্সিভ ফাংশন (Recursive Function)](14-function/recursive-function.md)
   * [জেনেরেটর ফাংশন (Generator Function)](14-function/generator-function.md)
-* [ক্লাস(class)](15-class/README.md)
+* [ক্লাস ও অবজেক্ট অরিয়েন্টেড (class & OOP)](15-class/README.md)
   * [মেম্বার ফাংশন(Member Function)](15-class/member-function.md)
   * [ইনহেরিটেন্স (Inhertance)](15-class/inhertance.md)
   * [এনসকেপসুলেশন (Encapsulations)](15-class/encapsulations.md)

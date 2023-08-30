@@ -21,16 +21,18 @@ const dailyHomeCosts = [
 
 চলুন বেশি দেরি না করে বের করে ফেলি।&#x20;
 
+{% code title="উদাহরণঃ " lineNumbers="true" %}
 ```javascript
 const highestCost = dailyHomeCosts.filter((cost)=>cost>=80)
 console.log(highestCost )
 ```
+{% endcode %}
 
-Output:
-
+{% code title="Output:" %}
 ```
 [ 80, 80, 90, 85, 80, 80 ]
 ```
+{% endcode %}
 
 ব্যাস সে কিন্তু আপনাকে সাথে সাথে ৮০ টাকা বা তার উপরে বাজার বাজার খরচ গুলো দিয়ে দিবে।&#x20;
 
@@ -97,47 +99,92 @@ console.log(evenNumbers); // Output: [2, 4]
 
 **find:**  এইটা আগের মত করে একটা কলব্যাক ফাংশন নিবে কিন্তু যে স্টেটমেন্টের জন্য সত্য শুধু মাত্র সেই ভ্যালু টা ফেরত দিবে বা রির্টান করবে
 
-উদাহরনঃ&#x20;
+{% code title="সিনট্যাক্সঃ" %}
+```javascript
+const result = originalArray.find((currentValue, index, array) => {
+  // return true or false based on some condition using currentValue
+});
 
+```
+{% endcode %}
+
+{% code title="উদাহরনঃ " lineNumbers="true" %}
 ```javascript
 const firstEven = numbers.find(number => number % 2 === 0);
 console.log(firstEven); // Output: 2
 ```
+{% endcode %}
 
 **reduce:** এইটা দুইটা প্যারামিটার নেয় প্রথম প্যারামিটার হিসেবে reduce একটা কলব্যাক ফাংশন নেয় এবং ঐ কলব্যাক ফাংশন দুইটা প্যারামিটার নেয় আর একটা হচ্ছে accumulator আরেকটা হচ্ছে currentvalue আর ২য় প্যারামিটার টা হচ্ছে initialvalue ।&#x20;
 
-উদাহরনঃ&#x20;
+{% code title="সিনট্যাক্সঃ" overflow="wrap" lineNumbers="true" %}
+```javascript
+const result = originalArray.reduce((accumulator, currentValue, index, array) => {
+  // return updated accumulator value based on currentValue
+}, initialValue);
 
+```
+{% endcode %}
+
+{% code title="উদাহরনঃ " %}
 ```javascript
 const sum = numbers.reduce((accumulator, currentNumber) =>{
    return accumulator + currentNumber, 0);
 }
 console.log(sum); // Output: 15
 ```
+{% endcode %}
 
 **every:** এইটা একটা কলব্যাক ফাংশন নেয় এবং ঐ ফাংশনের স্টেটমেন্টে লিখা প্রত্যকটি উপদানের জন্য যদি সত্য হয় তাহলে every true রিটার্ন করে অথবা false রিটার্ন করে ।&#x20;
 
-উদাহরনঃ&#x20;
+{% code title="সিনট্যাক্সঃ" lineNumbers="true" %}
+```javascript
+const result = originalArray.every((currentValue, index, array) => {
+  // return true or false based on some condition using currentValue
+});
 
+```
+{% endcode %}
+
+{% code title="উদাহরণঃ " overflow="wrap" lineNumbers="true" %}
 ```javascript
 const allEven = numbers.every(number => number % 2 === 0);
 console.log(allEven); // Output: true
 ```
+{% endcode %}
 
 **some:** একটা কলব্যাক ফাংশন নেই এবং ঐ ফাংশনে লিখা কোন একটা স্টেটমেন্ট ও যদি সত্য হয় তাহলে true রিটার্ন করে নতুবা false রির্টান করে।&#x20;
 
-উদাহরনঃ&#x20;
+{% code title="সিনট্যাক্সঃ" lineNumbers="true" %}
+```javascript
+const result = originalArray.some((currentValue, index, array) => {
+  // return true or false based on some condition using currentValue
+});
 
+```
+{% endcode %}
+
+{% code title="উদাহরনঃ" lineNumbers="true" %}
 ```javascript
 const hasEven = numbers.some(number => number % 2 === 0);
 console.log(hasEven); // Output: true
 ```
+{% endcode %}
 
 **reduceRight:**  এইটা একটা কলব্যাক ফাংশন নেই এবং reduce টিক উল্টো কাজ করে মানে সে অ্যারে এর শেষ থাকে কাজ করে এইখানে accumulator শেষ থেকে এবং ভ্যালু হোল্ড করে&#x20;
 
-উদাহরনঃ&#x20;
+{% code title="সিনট্যাক্সঃ" overflow="wrap" lineNumbers="true" %}
+```javascript
+const result = originalArray.reduceRight((accumulator, currentValue, index, array) => {
+  // return updated accumulator value based on currentValue
+}, initialValue);
 
+```
+{% endcode %}
+
+{% code title="উদাহরণ " lineNumbers="true" %}
 ```javascript
 const result = numbers.reduceRight((acc, num) => acc - num, 0);
 console.log(result); // Output: -2 (0 - 4 - 3 - 2 - 1)
 ```
+{% endcode %}

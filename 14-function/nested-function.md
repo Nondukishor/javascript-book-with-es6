@@ -4,6 +4,7 @@
 
 $$(x,n,a)=f(x,n,4)=\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}}}}}$$ এর নেস্টেট ফাংশন ব্যাবহার করে সামধান&#x20;
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```javascript
 function solveEquation(x, n, a) {
   function nestedExpression(currentX, currentN) {
@@ -33,11 +34,13 @@ const result = solveEquation(x, n, a);
 console.log(`Result: ${result}`);
 
 ```
+{% endcode %}
 
 আরো কিছু যদি উদাহরন দেখিঃ
 
 * $$\sqrt{1+2\sqrt{1+3\sqrt{}1+4}}$$
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```javascript
 function solveEquation() {
   function nestedExpression(n) {
@@ -55,9 +58,11 @@ const result = solveEquation();
 console.log(`Result: ${result}`);
 
 ```
+{% endcode %}
 
 * $$x = \sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}}}}$$
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```javascript
 function solveEquation(x, n, iterations) {
   function nestedExpression(currentX, remainingIterations) {
@@ -80,4 +85,5 @@ const result = solveEquation(x, n, iterations);
 console.log(`x = ${result}`);
 
 ```
+{% endcode %}
 

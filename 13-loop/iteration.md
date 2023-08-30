@@ -44,30 +44,56 @@ const numbers = [1,2,3,4,5,6,7,8]
 
 **forEach**  একটা কলব্যাক ফাংশন নেয় এবং সেই ফাংশন  আসলে অ্যারে এর প্রতিটা ইলিমেন্টের মধ্য দিয়ে যাবে কিন্তু কোন কিছু আপনাকে ফেরত বা রিটার্ন দিবে না। মানে হলো সে আপনাকে নতুন কোন অ্যারে দিবে না।&#x20;
 
-<pre class="language-javascript"><code class="lang-javascript"><strong>numbers.forEach(number => {
+সিনট্যাক্সঃ&#x20;
+
+{% code title="সিনট্যাক্সঃ " lineNumbers="true" %}
+```javascript
+originalArray.forEach((currentValue, index, array) => {
+  // perform some operation using currentValue
+});
+```
+{% endcode %}
+
+<pre class="language-javascript" data-title="উদাহরণঃ" data-line-numbers><code class="lang-javascript"><strong>numbers.forEach(number => {
 </strong>  console.log(number * 2);
 });
-
 </code></pre>
 
-**map:** একটা কলব্যাক ফাংশন নেয় এবং সেই আসলে অ্যারে  এর প্রতিটা ইলিমেন্টের মধ্য দিয়ে যাবে এবং আপনি যে  অ্যারেটা দিয়েছেন সেইটার উপর ভিত্তি করে আপনাকে একটা নতুন অ্যারে ফেরত দিবে। মনে রাখা শ্রেয় যে আপনাকে যে অ্যারে ফেরত দিবে সেইটার length  আর  map কে দেওয়া অ্যারে  এর length কিন্তু সমান হবে।&#x20;
+**map:** একটা কলব্যাক ফাংশন নেয় এবং সেই আসলে অ্যারে  এর প্রতিটা ইলিমেন্টের মধ্য দিয়ে যাবে এবং আপনি যে  অ্যারেটা দিয়েছেন সেইটার উপর ভিত্তি করে আপনাকে একটা নতুন অ্যারে ফেরত দিবে। মনে রাখা শ্রেয় যে আপনাকে যে অ্যারে ফেরত দিবে সেইটার length  আর  map কে দেওয়া অ্যারে  এর length কিন্তু সমান হবে। &#x20;
 
-উদাহরনঃ&#x20;
+{% code title="সিনট্যাক্সঃ" lineNumbers="true" %}
+```javascript
+const newArray = originalArray.map((currentValue, index, array) => {
+  // return transformed value based on currentValue
+});
+```
+{% endcode %}
 
+{% code title="উদাহরনঃ " lineNumbers="true" %}
 ```javascript
 const doubledNumbers = numbers.map(number => number * 2);
 console.log(doubledNumbers); 
 // Output: [2, 4, 6, 8, 10]
 ```
+{% endcode %}
 
 **filter:**  এইটা ও একটা কলব্যাক ফাংশন নিবে এবং আপানার ফাংশনের ভ্যালু যে সমস্ত স্টেটমেন্টের জন্য সত্য হবে সেসকল উপদানের জন্য নতুন একটি অ্যারে ফেরত বা রিটার্ন দিবে।&#x20;
 
-উদাহরনঃ
+{% code title="সিনট্যাক্সঃ" lineNumbers="true" %}
+```javascript
+const newArray = originalArray.filter((currentValue, index, array) => {
+  // return true or false based on some condition using currentValue
+});
 
+```
+{% endcode %}
+
+{% code title="উদাহরনঃ" lineNumbers="true" %}
 ```javascript
 const evenNumbers = numbers.filter(number => number % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4]
 ```
+{% endcode %}
 
 **find:**  এইটা আগের মত করে একটা কলব্যাক ফাংশন নিবে কিন্তু যে স্টেটমেন্টের জন্য সত্য শুধু মাত্র সেই ভ্যালু টা ফেরত দিবে বা রির্টান করবে
 

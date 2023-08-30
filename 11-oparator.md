@@ -20,26 +20,27 @@ description: >-
 * Unary operators
 * Relational operators
 
-| Assignment                      | `x = y`    | `x = y`       |
-| ------------------------------- | ---------- | ------------- |
-| Addition assignment             | `x += y`   | `x = x + y`   |
-| Subtraction assignment          | `x -= y`   | `x = x - y`   |
-| Multiplication assignment       | `x *= y`   | `x = x * y`   |
-| Division assignment             | `x /= y`   | `x = x / y`   |
-| Remainder assignment            | `x %= y`   | `x = x % y`   |
-| Exponentiation assignment       | `x **= y`  | `x = x ** y`  |
-| Left shift assignment           | `x <<= y`  | `x = x << y`  |
-| Right shift assignment          | `x >>= y`  | `x = x >> y`  |
-| Unsigned right shift assignment | `x >>>= y` | `x = x >>> y` |
-| Bitwise AND assignment          | `x &= y`   | `x = x & y`   |
-| Bitwise XOR assignment          | `x ^= y`   | `x = x ^ y`   |
-| Bitwise OR assignment           | \`x        | = y\`         |
+| নাম                                                                                                                   | সংক্ষিপ্ত রুপ | বর্ধিত রূপ    |
+| --------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- |
+| Assignment(নিয়োগ)                                                                                                     | `x = y`       | `x = y`       |
+| Addition assignment(সংযোজন নিয়োগ)                                                                                     | `x += y`      | `x = x + y`   |
+| Subtraction assignment (বিয়োগ নিয়োগ)                                                                                  | `x -= y`      | `x = x - y`   |
+| Multiplication assignment(গুণ বরাদ্দকরণ)                                                                              | `x *= y`      | `x = x * y`   |
+| Division assignment(ভাগ বরাদ্দকরণ )                                                                                   | `x /= y`      | `x = x / y`   |
+| Remainder assignment(অবশিষ্ট নিয়োগ)                                                                                   | `x %= y`      | `x = x % y`   |
+| Exponentiation assignment(সূচক নিয়োগ)                                                                                 | `x **= y`     | `x = x ** y`  |
+| Left shift assignment(বাম পরিবর্তন নিয়োগ)                                                                             | `x <<= y`     | `x = x << y`  |
+| Right shift assignment(ডান পরিবর্তন নিয়োগ)                                                                            | `x >>= y`     | `x = x >> y`  |
+| Unsigned right shift assignment(অস্বাক্ষরিত ডান নিয়োগ ) _<mark style="color:red;">**`0 থেকে ধনাত্মক সংখ্যা`**</mark>_ | `x >>>= y`    | `x = x >>> y` |
+| Bitwise AND assignment (বিট অনুযায়ী এবং নিয়োগ)                                                                        | `x &= y`      | `x = x & y`   |
+| Bitwise XOR assignment(বিট অনুযায়ী একচেটিয়াভাবে অথবা নিয়োগ)                                                           | `x ^= y`      | `x = x ^ y`   |
+| Bitwise OR assignment(বিট অনুযায়ী অথবা নিয়োগ)                                                                         | x \|= y       | x = x \| y    |
 
 **Assignment:** Assignment অপারেটর হলো যাকে আমরা বাংলায় সমান চিহ্ন ( = ) বলে জানি ছোট বেলা থেকে এটা অনেক ভাবে ব্যবহার করা যায় নিচে তা উল্লেখ করা হলো ।
 
 Ex:
 
-```javaScript
+```javascript
 ১। const x = "Hello Bangladesh";
 ২। let y = 164.7;
 ৩। var z = true
@@ -115,7 +116,11 @@ x \*\*=x
 
 Ex:
 
-```
+```javascript
 let x= 2;
-let **=2; // 4 (Mean x= x**x)
+x **=2; // 4 (Mean x= x**x)
 ```
+
+{% hint style="info" %}
+( \*\* ) অপারেটরটার নাম হচ্ছে সূচক (Exponentiation) অপারেটর&#x20;
+{% endhint %}

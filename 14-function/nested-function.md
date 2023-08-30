@@ -1,16 +1,37 @@
 # ক্রিয়াকলাপের ভিতরে ক্রিয়াকলাপ ( Nested Function)
 
-ক্রিয়াকলাপের ভিতরে ক্রিয়াকলাপ বা নেস্টেড ফাংশন কে অনেক সময় সাব রুন্টিন ও বলা হয়। যখন একটা ফাংশন এর ভিতরে আরেকটা ফাংশন কে লিখা হয় তখন আমারা সেইটা কে নেস্টেট ফাংশন বলব। মূলত এই ধরনের ফাংশন গুলো আপনার অভ্যন্তরীন ফাংশনালিটি নিয়ে কাজ করে। যখন আপনার মনে হবে কোন কাজকে ঐ ফাংশনের ভিতরে অনেকগুলো ক্ষুদ্র ক্ষুদ্র ভাগে বিভক্ত করে করা উচিত তখন আসলে নেস্টেড ফাংশন লিখা হয়। বিষয় টা কে আপনি আপানার ম্যাথ এর সাথে মিলাতে পারেন $$\sqrt {x^2 - 3}$$ এই ধরনের কনসেপ্ট গুলো চিন্তা করলেই বুঝতে পারবেন আসলে নেস্টেট ফাংশন কিভাবে আসলে কেন লিখা হয়
+ক্রিয়াকলাপের ভিতরে ক্রিয়াকলাপ বা নেস্টেড ফাংশন কে অনেক সময় সাব রুন্টিন ও বলা হয়। যখন একটা ফাংশন এর ভিতরে আরেকটা ফাংশন কে লিখা হয় তখন আমারা সেইটা কে নেস্টেট ফাংশন বলব। মূলত এই ধরনের ফাংশন গুলো আপনার অভ্যন্তরীন ফাংশনালিটি নিয়ে কাজ করে। যখন আপনার মনে হবে কোন কাজকে ঐ ফাংশনের ভিতরে অনেকগুলো ক্ষুদ্র ক্ষুদ্র ভাগে বিভক্ত করে করা উচিত তখন আসলে নেস্টেড ফাংশন লিখা হয়। বিষয় টা কে আপনি আপানার ম্যাথ এর সাথে মিলাতে পারেন $$(x,n,a)=f(x,n,4)=\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}}}}}$$ এই ধরনের কনসেপ্ট গুলো চিন্তা করলেই বুঝতে পারবেন আসলে নেস্টেট ফাংশন কিভাবে আসলে কেন লিখা হয়
 
-
+$$(x,n,a)=f(x,n,4)=\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}\sqrt[n]{x^{n-1}}}}}$$ এর নেস্টেট ফাংশন ব্যাবহার করে সামধান&#x20;
 
 ```javascript
-function equation(x){
-   const result = ( x ^ 2 ) - 3
-   return function rootCalculate(){
-         return Math.sqrt(result)
-   }
+function solveEquation(x, n, a) {
+  function nestedExpression(currentX, currentN) {
+    if (currentN === 1) {
+      return Math.pow(currentX, n - 1); // Base case: n = 1
+    } else {
+      return Math.pow(currentX, n - 1) * nestedExpression(currentX, currentN - 1);
+    }
+  }
+
+  function recursiveRoot(currentX, currentN) {
+    if (currentN === 1) {
+      return Math.pow(currentX, 1 / n); // Base case: n = 1
+    } else {
+      return Math.pow(nestedExpression(currentX, currentN), 1 / n) * recursiveRoot(currentX, currentN - 1);
+    }
+  }
+
+  return recursiveRoot(x, a);
 }
+
+const x = 2; // Replace with the value of x you want to use
+const n = 3; // Replace with the value of n you want to use
+const a = 4; // Replace with the value of a you want to use
+
+const result = solveEquation(x, n, a);
+console.log(`Result: ${result}`);
+
 ```
 
 আরো কিছু যদি উদাহরন দেখিঃ

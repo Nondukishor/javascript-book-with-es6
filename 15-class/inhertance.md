@@ -4,6 +4,8 @@
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>ইনহেরিটেন্স </p></figcaption></figure>
 
+ছবি রেফারেন্সঃ [https://seleniumautomationtester.wordpress.com/2017/03/09/inheritance-in-java/](https://seleniumautomationtester.wordpress.com/2017/03/09/inheritance-in-java/)
+
 নিচে একটা উদাহরন দিয়ে দেখানো হলো।
 
 ```javascript

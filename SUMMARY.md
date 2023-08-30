@@ -43,7 +43,7 @@
   * [রিকার্সিভ ফাংশন (Recursive Function)](14-function/recursive-function.md)
   * [জেনেরেটর ফাংশন (Generator Function)](14-function/generator-function.md)
 * [ক্লাস ও অবজেক্ট অরিয়েন্টেড (class & OOP)](15-class/README.md)
-  * [মেম্বার ফাংশন(Member Function)](15-class/member-function.md)
+  * [সদস্য ক্রিয়াকলাপ(Member Function)](15-class/member-function.md)
   * [ইনহেরিটেন্স (Inhertance)](15-class/inhertance.md)
   * [এনসকেপসুলেশন (Encapsulations)](15-class/encapsulations.md)
   * [অবস্ট্রাক্শন(Abstraction)](15-class/abstraction.md)

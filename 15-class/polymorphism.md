@@ -1,6 +1,6 @@
 # পলিমরফিজম (Polymorphism)
 
-
+পলিমরফিজম (Polymorphism) বা বহুরূপতা একটি গ্রিক্ শব্দ যার অর্থ একাধিক আকার গ্রহণ করার ক্ষমতা। &#x20;
 
 ```javascript
 // Parent constructor function

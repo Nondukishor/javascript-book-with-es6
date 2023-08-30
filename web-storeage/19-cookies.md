@@ -85,3 +85,23 @@
 </html>
 
 ```
+
+কুকিসের ব্যাবহারঃ
+
+১। Session Management
+
+২। Personalization
+
+৩। Shopping Carts
+
+৪। User Tracking and Analytics
+
+৫। Remember Me Functionality
+
+৬। Ad Tracking and Targeting
+
+৭। Security
+
+৮। User Experience Enhancement
+
+৯। Localization

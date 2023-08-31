@@ -39,7 +39,7 @@
   * [অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ  অভিব্যক্তি (IIFE)](14-function/iife.md)
   * [উচ্চ আদেশ ক্রিয়াকলাপ (Higher Order Function)](14-function/higher-order-function.md)
   * [সংবাহন ক্রিয়াকলাপ (Currying function)](14-function/currying-function.md)
-  * [এন এফ ই (NFE)](14-function/nfe.md)
+  * [নাম ক্রিয়াকলাপ অস্তিত্ব(NFE)](14-function/nfe.md)
   * [পুনরাবৃত্ত ক্রিয়াকলাপ (Recursive Function)](14-function/recursive-function.md)
   * [উদ্ভাবক ক্রিয়াকলাপ (Generator Function)](14-function/generator-function.md)
 * [ক্লাস ও অবজেক্ট অরিয়েন্টেড (class & OOP)](15-class/README.md)

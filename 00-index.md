@@ -40,6 +40,11 @@
     9. [পুনরাবৃত্ত ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/recursive-function)
     10. [উদ্ভাবক ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/generator-function)
 17. [ক্লাস ও অবজেক্ট অরিয়েন্টেড](https://nipu.gitbook.io/coding-js/class)
+    1. সদস্য ক্রিয়াকলাপ
+    2. ইনহেরিটেন্স
+    3. এনসকেপসুলেশন
+    4. অবস্ট্রাক্শন
+    5. পলিমরফিজম
 18. [অ্যারে](16-array.md)
 19. [এজ্যাক্স](js-dom.md)
 20. [সেশন](web-storeage/)

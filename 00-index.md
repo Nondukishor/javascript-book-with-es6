@@ -24,22 +24,22 @@
        2. [অ্যারে](https://nipu.gitbook.io/coding-js/datatype/non-primitive-data-type/array)
 13. [অপারেটর](https://nipu.gitbook.io/coding-js/oparator)
 14. [কন্ডিশনাল কন্ট্রোল ফ্লো](https://nipu.gitbook.io/coding-js/conditional-control-flow)
-15. [লুপ এবং ইটারেশন](loop/)
+15. [লুপ এবং ইটারেশন](13-loop/)
     1. [ফর লুপ](https://nipu.gitbook.io/coding-js/loop/iteration)
     2. [ও্যাইয়ল লুপ](https://nipu.gitbook.io/coding-js/loop/while-loop)
     3. [পুনারাবৃত্তি](https://nipu.gitbook.io/coding-js/loop/iteration)
 16. [ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function)
-    1. সাধারন ক্রিয়াকলাপ
-    2. তীর ক্রিয়াকলাপ
-    3. ক্রিয়াকলাপের ভিতরে ক্রিয়াকলাপ
-    4. বন্ধ ক্রিয়াকলাপ
-    5. অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ অভিব্যক্তি
-    6. উচ্চ আদেশ ক্রিয়াকলাপ
-    7. সংবাহন ক্রিয়াকলাপ
-    8. নাম ক্রিয়াকলাপ অস্তিত্ব
-    9. পুনরাবৃত্ত ক্রিয়াকলাপ
-    10. উদ্ভাবক ক্রিয়াকলাপ
-17. [ক্লাস](15-class/)
+    1. [সাধারন ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/regular-function)
+    2. [তীর ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/arrow-function)
+    3. [ক্রিয়াকলাপের ভিতরে ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/nested-function)
+    4. [বন্ধ ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/closures-function)
+    5. [অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ অভিব্যক্তি](https://nipu.gitbook.io/coding-js/function/iife)
+    6. [উচ্চ আদেশ ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/higher-order-function)
+    7. [সংবাহন ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/currying-function)
+    8. [নাম ক্রিয়াকলাপ অস্তিত্ব](https://nipu.gitbook.io/coding-js/function/nfe)
+    9. [পুনরাবৃত্ত ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/recursive-function)
+    10. [উদ্ভাবক ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/generator-function)
+17. [ক্লাস ও অবজেক্ট অরিয়েন্টেড](https://nipu.gitbook.io/coding-js/class)
 18. [অ্যারে](16-array.md)
 19. [এজ্যাক্স](js-dom.md)
 20. [সেশন](web-storeage/)

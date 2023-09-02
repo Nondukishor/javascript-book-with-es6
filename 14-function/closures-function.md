@@ -1,4 +1,4 @@
-# বন্ধ ফাংশন (Closures Function)
+# বন্ধ ক্রিয়াকলাপ(Closures Function)
 
 ```javascript
 function wrapValue(n) {

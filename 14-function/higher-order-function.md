@@ -1,4 +1,4 @@
-# উচ্চ আদেশ ফাংশন(Higher Order Function)
+# উচ্চ আদেশ ক্রিয়াকলাপ (Higher Order Function)
 
 ```javascript
 function map(array, transform) {

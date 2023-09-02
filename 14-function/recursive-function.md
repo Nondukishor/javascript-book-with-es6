@@ -1,4 +1,4 @@
-# রিকার্সিভ ফাংশন (Recursive Function)
+# পুনরাবৃত্ত ক্রিয়াকলাপ (Recursive Function)
 
 ```javascript
 function power(base, exponent) {

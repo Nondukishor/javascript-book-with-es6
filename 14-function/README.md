@@ -5,7 +5,7 @@ description: >-
   বাধ্য থাকব।
 ---
 
-# ফাংশন(Function)
+# ক্রিয়াকলাপ (Function)
 
 ## ফাংশন
 

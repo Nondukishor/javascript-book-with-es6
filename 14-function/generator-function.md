@@ -1,4 +1,4 @@
-# জেনেরেটর ফাংশন (Generator Function)
+# উদ্ভাবক ক্রিয়াকলাপ (Generator Function)
 
 ```javascript
 function* name(param0) {

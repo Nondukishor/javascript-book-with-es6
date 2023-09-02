@@ -13,15 +13,15 @@
 11. [ভেরি + এবল =ভেরিয়্যাবল কি?](https://nipu.gitbook.io/coding-js/javascript\_variable)
 12. [ডেটা টাইপ](https://nipu.gitbook.io/coding-js/datatype)
     1. [প্রিমিটিভ ডাটা টাইপ](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type)
-       1. বুলিয়ান
-       2. আন্ডিফাইন্ড
-       3. নাল
-       4. নাম্বার
-       5. বিগ ইন্টিজার
-       6. স্ট্রিং
-    2. নন-প্রিমিটিভ ডাটা টাইপ
-       1. অব্জেক্ট
-       2. অ্যারে
+       1. [বুলিয়ান](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type/boolean)
+       2. [আন্ডিফাইন্ড](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type/undefined)
+       3. [নাল](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type/null)
+       4. [নাম্বার](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type/number)
+       5. [বিগ ইন্টিজার](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type/bigint)
+       6. [স্ট্রিং](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type/string)
+    2. [নন-প্রিমিটিভ ডাটা টাইপ](https://nipu.gitbook.io/coding-js/datatype/non-primitive-data-type)
+       1. [অব্জেক্ট](https://nipu.gitbook.io/coding-js/datatype/non-primitive-data-type/object)
+       2. [অ্যারে](https://nipu.gitbook.io/coding-js/datatype/non-primitive-data-type/array)
 13. [অপারেটর](https://nipu.gitbook.io/coding-js/oparator)
 14. [কন্ডিশনাল কন্ট্রোল ফ্লো](12-conditional-flow.md)
 15. [লুপ এবং ইটারেশন](13-loop/)

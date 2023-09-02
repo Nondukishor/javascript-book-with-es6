@@ -2,8 +2,8 @@
 
 * [কোডিং JS](README.md)
 * [সূচিপত্র(Index)](00-index.md)
-* [ভূমিকা](intro.md)
-* [ইতিহাস](02-history.md)
+* [ভূমিকা](01-intro.md)
+* [ইতিহাস](history.md)
 * [জাভাস্ক্রিপ্ট আওতা](03-features.md)
 * [কাদের জন্য জাভাস্ক্রিপ্ট?](04-users.md)
 * [এনভায়রনমেন্ট সেটআপ](environment-setup.md)

@@ -1,7 +1,7 @@
 # সূচিপত্র(Index)
 
-1. ভুমিকা
-2. [জাভাস্ক্রিপ্টের নির্মাতা ও ইতিহাস](02-history.md)।
+1. [ভুমিকা](https://nipu.gitbook.io/coding-js/intro)
+2. [জাভাস্ক্রিপ্টের নির্মাতা ও ইতিহাস।](https://nipu.gitbook.io/coding-js/history)
 3. [জাভাস্কিপ্টের আওতা](03-features.md)।
 4. [কাদের জন্য জাভাস্ক্রিপ্ট?](04-users.md)
 5. [এনভায়রনমেন্ট সেটআপ ।](environment-setup.md)

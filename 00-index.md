@@ -23,9 +23,22 @@
        1. [অব্জেক্ট](https://nipu.gitbook.io/coding-js/datatype/non-primitive-data-type/object)
        2. [অ্যারে](https://nipu.gitbook.io/coding-js/datatype/non-primitive-data-type/array)
 13. [অপারেটর](https://nipu.gitbook.io/coding-js/oparator)
-14. [কন্ডিশনাল কন্ট্রোল ফ্লো](12-conditional-flow.md)
-15. [লুপ এবং ইটারেশন](13-loop/)
-16. [ফাংশন](14-function/)
+14. [কন্ডিশনাল কন্ট্রোল ফ্লো](https://nipu.gitbook.io/coding-js/conditional-control-flow)
+15. [লুপ এবং ইটারেশন](loop/)
+    1. [ফর লুপ](https://nipu.gitbook.io/coding-js/loop/iteration)
+    2. [ও্যাইয়ল লুপ](https://nipu.gitbook.io/coding-js/loop/while-loop)
+    3. [পুনারাবৃত্তি](https://nipu.gitbook.io/coding-js/loop/iteration)
+16. [ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function)
+    1. সাধারন ক্রিয়াকলাপ
+    2. তীর ক্রিয়াকলাপ
+    3. ক্রিয়াকলাপের ভিতরে ক্রিয়াকলাপ
+    4. বন্ধ ক্রিয়াকলাপ
+    5. অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ অভিব্যক্তি
+    6. উচ্চ আদেশ ক্রিয়াকলাপ
+    7. সংবাহন ক্রিয়াকলাপ
+    8. নাম ক্রিয়াকলাপ অস্তিত্ব
+    9. পুনরাবৃত্ত ক্রিয়াকলাপ
+    10. উদ্ভাবক ক্রিয়াকলাপ
 17. [ক্লাস](15-class/)
 18. [অ্যারে](16-array.md)
 19. [এজ্যাক্স](js-dom.md)

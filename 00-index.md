@@ -2,7 +2,7 @@
 
 1. [ভুমিকা](https://nipu.gitbook.io/coding-js/intro)
 2. [জাভাস্ক্রিপ্টের নির্মাতা ও ইতিহাস।](https://nipu.gitbook.io/coding-js/history)
-3. [জাভাস্কিপ্টের আওতা।](https://nipu.gitbook.io/coding-js/features)
+3. [জাভাস্ক্রিপ্টের বিস্তার কত দূর?](https://nipu.gitbook.io/coding-js/features)
 4. [কাদের জন্য জাভাস্ক্রিপ্ট?](https://nipu.gitbook.io/coding-js/users)
 5. [এনভায়রনমেন্ট সেটআপ ।](https://nipu.gitbook.io/coding-js/environment-setup)
 6. [ব্রাউজার পরিচিতি](browser-intro.md)[ ](https://nipu.gitbook.io/coding-js/browser-intro)

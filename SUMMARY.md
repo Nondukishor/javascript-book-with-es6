@@ -4,7 +4,7 @@
 * [সূচিপত্র(Index)](00-index.md)
 * [ভূমিকা](01-intro.md)
 * [ইতিহাস](02-history.md)
-* [জাভাস্ক্রিপ্ট আওতা](features.md)
+* [জাভাস্ক্রিপ্টের বিস্তার কত দূর?](features.md)
 * [কাদের জন্য জাভাস্ক্রিপ্ট?](users.md)
 * [এনভায়রনমেন্ট সেটআপ](environment-setup.md)
 * [ব্রাউজার পরিচিতি](browser-intro.md)

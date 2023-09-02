@@ -13,8 +13,16 @@
 11. [ভেরি + এবল =ভেরিয়্যাবল কি?](https://nipu.gitbook.io/coding-js/javascript\_variable)
 12. [ডেটা টাইপ](https://nipu.gitbook.io/coding-js/datatype)
     1. [প্রিমিটিভ ডাটা টাইপ](https://nipu.gitbook.io/coding-js/datatype/premitive-data-type)
-       1.
-13. [অপারেটর](11-oparator.md)
+       1. বুলিয়ান
+       2. আন্ডিফাইন্ড
+       3. নাল
+       4. নাম্বার
+       5. বিগ ইন্টিজার
+       6. স্ট্রিং
+    2. নন-প্রিমিটিভ ডাটা টাইপ
+       1. অব্জেক্ট
+       2. অ্যারে
+13. [অপারেটর](https://nipu.gitbook.io/coding-js/oparator)
 14. [কন্ডিশনাল কন্ট্রোল ফ্লো](12-conditional-flow.md)
 15. [লুপ এবং ইটারেশন](13-loop/)
 16. [ফাংশন](14-function/)

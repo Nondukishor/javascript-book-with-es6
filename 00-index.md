@@ -39,17 +39,22 @@
     8. [নাম ক্রিয়াকলাপ অস্তিত্ব](https://nipu.gitbook.io/coding-js/function/nfe)
     9. [পুনরাবৃত্ত ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/recursive-function)
     10. [উদ্ভাবক ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/generator-function)
-17. [ক্লাস ও অবজেক্ট অরিয়েন্টেড](https://nipu.gitbook.io/coding-js/class)
-    1. সদস্য ক্রিয়াকলাপ
-    2. ইনহেরিটেন্স
-    3. এনসকেপসুলেশন
-    4. অবস্ট্রাক্শন
-    5. পলিমরফিজম
-18. [অ্যারে](16-array.md)
-19. [এজ্যাক্স](js-dom.md)
-20. [সেশন](web-storeage/)
-21. [কুকিস](web-storeage/19-cookies.md)
-22. [ডোম](js-dom.md)
-23. [জাভাস্ক্রিপ্ট স্টাইল](21-js-style.md)
-24. [এপি আই কি কেন ?](22-what-is-api.md)
-25. [ফ্রেম ওয়ার্ক লাইব্রেরী নিয়ে খোশ গল্প](23-framework-library-gossip.md)\
+17. [ক্লাস ও অবজেক্ট অরিয়েন্টেড](https://nipu.gitbook.io/coding-js/class-and-oop)
+    1. [সদস্য ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/class-and-oop/member-function)
+    2. [ইনহেরিটেন্স](https://nipu.gitbook.io/coding-js/class-and-oop/inhertance)
+    3. [এনসকেপসুলেশন](https://nipu.gitbook.io/coding-js/class-and-oop/encapsulations)
+    4. [অবস্ট্রাক্শন](https://nipu.gitbook.io/coding-js/class-and-oop/abstraction)
+    5. [পলিমরফিজম](https://nipu.gitbook.io/coding-js/class-and-oop/polymorphism)
+18. [আমি ফিরে আসব](https://nipu.gitbook.io/coding-js/callback-function)
+19. [প্রতিশ্রুতি](https://nipu.gitbook.io/coding-js/promise)
+20. [অসমনিয়ত ও অপেক্ষা](https://nipu.gitbook.io/coding-js/async-and-await)
+21. [এজ্যাক্স](https://nipu.gitbook.io/coding-js/ajax)
+22. [আনয়ন করা](https://nipu.gitbook.io/coding-js/fetch)
+23. [ওয়েব স্টোরেজ](https://nipu.gitbook.io/coding-js/web-storeage)
+    1. [বিস্কিটের টুকরো](https://nipu.gitbook.io/coding-js/web-storeage/session)
+    2. [কুকিস](https://nipu.gitbook.io/coding-js/web-storeage/cookies)
+24. [ওয়েভ এপি আই](https://nipu.gitbook.io/coding-js/web-api)
+25. [জে এস ডোম](https://nipu.gitbook.io/coding-js/js-dom)
+26. [জাভাস্ক্রিপ্ট স্টাইল](https://nipu.gitbook.io/coding-js/js-style)
+27. [এপি আই কি কেন ?](22-what-is-api.md)
+28. [ফ্রেম ওয়ার্ক লাইব্রেরী নিয়ে খোশ গল্প](23-framework-library-gossip.md)\

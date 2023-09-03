@@ -33,7 +33,7 @@ description: >-
 4. **Bookmarks**
 5.  **Tabbed browsing**
 
-    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Browser structure<br>ref : <a href="https://www.javatpoint.com/browsers">https://www.javatpoint.com/browsers</a></p></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Browser structure<br>ref : <a href="https://www.javatpoint.com/browsers">https://www.javatpoint.com/browsers</a></p></figcaption></figure>
 
 
 

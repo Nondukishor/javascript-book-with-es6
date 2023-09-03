@@ -1,8 +1,26 @@
 # ইনহেরিটেন্স (Inhertance)
 
+গল্প দিয়ে শুরু করি কিভাবে কি! ১৯৯৬ সালে স্যার _**চার্লস অ্যান্টনি রিচার্ড হোয়ার**_ **Charles Antony Richard Hoare (Tony Hoare or C. A. R. Hoare)** নামে এক ব্রিটিস কম্পিউটার প্রকৌশলী রেকর্ডের উপর ভিত্তি করে করে কিছু কন্সেপ্ট কে একত্রীকরণ উপস্থাপন করে আর সে কনসেপ্ট কে ভিত্তি করে ১৯৬৭ সালে ওলে-জোহান ডাহল এবং ক্রিস্টেন নাইগার্ড একটি নকশা উপস্থাপন করেছিলেন যা বিভিন্ন ক্লাসের ভিতরের বিষয় বস্তু গুলোকে একটি সুপার ক্লাসে নিয়ে অন্য আরেকটা ক্লাসে ব্যাবহারের সুবিধা দিবে। এবং পরে তা সিমুলা-৬৭ এর সাথে যুক্ত করে বাজারে ছাড়ে পরে অন্যান্য প্রোগ্রামিং ল্যাঙ্গুয়েজ এই বিষয়টাকে তাদের বৈশিষ্ট্য হিসেবে যুক্ত করে নেয়।&#x20;
+
+source : [https://en.wikipedia.org/wiki/Inheritance\_(object-oriented\_programming)](https://en.wikipedia.org/wiki/Inheritance\_\(object-oriented\_programming\))
+
 ইনহেরিটেন্স এর মানে হচ্ছে উত্তরাধিকার সূত্রে পাওয়া। যদি বলি পুত্র/কন্যা তার বাবা/মায়ের কিছু বৈশিষ্ট্য পেয়ে থাকে যেইটা উত্তরাধিকার সূত্রেই পেয়ে থাকে সেইটাই ইনহেরিটেন্স । আরো যদি সরল ভাবে বলি একটা বস্তু/জিনিস/একটা অবজেক্ট যখন অন্য একটা অবজেক্ট বা অন্য একটা বস্তু বা অন্য একটা জিনিস থেকে কিছু বৈশিষ্ট্য ধার করে বা নিজের মধ্যে নিয়ে নেয় সেইটায় ইনহেরিটেন্স।
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>ইনহেরিটেন্স </p></figcaption></figure>
+ইনহেরিটেন্স কত প্রকার ও কী কী?
+
+১। সিঙ্গেল ইনহেরিটেন্স
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>image source: <a href="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Single_Inheritance.jpg/170px-Single_Inheritance.jpg">https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Single_Inheritance.jpg/170px-Single_Inheritance.jpg</a></p></figcaption></figure>
+
+২। মাল্টিপল ইনহেরিটেন্স
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>image source: <a href="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Multiple_Inheritance.jpg/170px-Multiple_Inheritance.jpg">https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Multiple_Inheritance.jpg/170px-Multiple_Inheritance.jpg</a></p></figcaption></figure>
+
+৩। মাল্টি লেবেল ইনহেরিটেন্স
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>image sourcce : <a href="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/170px-Multilevel_Inheritance.jpg">https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/170px-Multilevel_Inheritance.jpg</a></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>ইনহেরিটেন্স </p></figcaption></figure>
 
 ছবি রেফারেন্সঃ [https://seleniumautomationtester.wordpress.com/2017/03/09/inheritance-in-java/](https://seleniumautomationtester.wordpress.com/2017/03/09/inheritance-in-java/)
 

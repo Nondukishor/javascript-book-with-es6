@@ -8,7 +8,8 @@
 
 এবার চলুন পোগ্রামিং করে বিষয় টা আরেকটু বুঝি।&#x20;
 
-
+1. Data Abstraction
+2. Process Abstraction
 
 ```javascript
 class Person {

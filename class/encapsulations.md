@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>এনসকেপসুলেশন</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>এনসকেপসুলেশন</p></figcaption></figure>
 
 ছবির রেফারেন্সঃ [https://algodaily.com/lessons/understanding-encapsulation-in-programming/introduction](https://algodaily.com/lessons/understanding-encapsulation-in-programming/introduction)
 

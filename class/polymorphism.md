@@ -44,3 +44,37 @@ cat.speak(); // Output: Whiskers makes a sound.
 dog.speak(); // Output: Buddy makes a sound.
 cat.speak(); // Output: Whiskers makes a sound.
 ```
+
+সেইম কোড টা আপনি চাইলে ক্লাস দিয়েও করতে পারেন নিচের মতো করে ।
+
+```javascript
+// Parent class
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a sound.`);
+  }
+}
+
+// Child classes
+class Dog extends Animal {
+  constructor(name) {
+    super(name);
+  }
+}
+
+class Cat extends Animal {
+  constructor(name) {
+    super(name);
+  }
+}
+
+const dog = new Dog("Buddy");
+const cat = new Cat("Whiskers");
+
+dog.speak(); // Output: Buddy makes a sound.
+cat.speak(); // Output: Whiskers makes a sound.
+```

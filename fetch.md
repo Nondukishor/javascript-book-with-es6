@@ -48,3 +48,5 @@ fetch('url', {
     //handle error
   });
 ```
+
+ref: [https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests](https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests)

@@ -7,6 +7,23 @@ description: >-
 
 # জাভাস্ক্রিপ্টের বিল্ডইন কী ওয়ার্ড(Javascript Build in keyword)
 
+| Name of keyword | Name of keyword | Name of keyword | Name of keyword |
+| --------------- | --------------- | --------------- | --------------- |
+| abstract        | arguments       | await\*         | boolean         |
+| break           | byte            | case            | catch           |
+| char            | class\*         | const           | continue        |
+| debugger        | default         | delete          | do              |
+| double          | else            | enum\*          | eval            |
+| export\*        | extends\*       | false           | final           |
+| finally         | float           | for             | function        |
+| goto            | if              | implements      | import\*        |
+| in              | instanceof      | int             | interface       |
+| let\*           | long            | native          | new             |
+| null            | package         | private         | protected       |
+| public          | return          | short           | static          |
+| super\*         | switch          | synchronized    | this            |
+| throw           | throws          | transient       | true            |
+| try             | typeof          | var             | void            |
+| volatile        | while           | with            | yield           |
 
-
-<table data-full-width="true"><thead><tr><th align="center">Name of keyword</th><th align="center">Name of keyword</th><th align="center">Name of keyword</th><th align="center">Name of keyword</th></tr></thead><tbody><tr><td align="center">abstract</td><td align="center">arguments</td><td align="center">boolean</td><td align="center">break</td></tr><tr><td align="center">byte</td><td align="center">case</td><td align="center">catch</td><td align="center">char</td></tr><tr><td align="center">const</td><td align="center">continue</td><td align="center">debugger</td><td align="center">default</td></tr><tr><td align="center">delete</td><td align="center">do</td><td align="center">double</td><td align="center">else</td></tr><tr><td align="center">eval</td><td align="center">false</td><td align="center">final</td><td align="center">finally</td></tr><tr><td align="center">float</td><td align="center">for</td><td align="center">function</td><td align="center">goto</td></tr><tr><td align="center">if</td><td align="center">implements</td><td align="center">in</td><td align="center">instanceof</td></tr><tr><td align="center">int</td><td align="center">interface</td><td align="center">let</td><td align="center">long</td></tr><tr><td align="center">native</td><td align="center">new</td><td align="center">null</td><td align="center">package</td></tr><tr><td align="center">private</td><td align="center">protected</td><td align="center">public</td><td align="center">return</td></tr><tr><td align="center">short</td><td align="center">static</td><td align="center">switch</td><td align="center">synchronized</td></tr><tr><td align="center">this</td><td align="center">throw</td><td align="center">throws</td><td align="center">transient</td></tr><tr><td align="center">true</td><td align="center">try</td><td align="center">typeof</td><td align="center">var</td></tr><tr><td align="center">void</td><td align="center">volatile</td><td align="center">while</td><td align="center">with</td></tr><tr><td align="center">yield</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
+Soruce: [https://www.w3schools.com/js/js\_reserved.asp](https://www.w3schools.com/js/js\_reserved.asp)

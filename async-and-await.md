@@ -46,3 +46,52 @@ class MyClass {
 
 ```
 {% endcode %}
+
+এখন ফাংশন তো লিখে ফেললেন সেইটা কল করবেন কিভাবে তাও একটা ব্যাপার আছে। Async কল করার দুইটা উপায় আছে একটা হচ্ছে প্রমিসের মতো করে মেথড চেইনিং আরেকটা হচ্ছে await চলুন দেখে নেই সেগুলো।
+
+{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
+```javascript
+//with regular function
+async function sum() {
+  return 2+3
+}
+
+//With Promise syntex
+sum.then(function(response){
+  return response;
+})
+
+//with await syntex
+const result = await sum()
+
+// with arrow function
+const sum = async ()=>{
+ return 2+2;
+}
+
+//Promise syntex
+sum.then(res=>console.log(res))
+
+// await syntext 
+const result = await sum()
+console.log(result)
+
+
+// with class member functions
+class Mathmatic{
+   async sum(){
+     return 3+3;
+   }
+}
+
+const math = Mathmatic()
+
+//Promise Syntex
+math.sum().then(res=>console.log(res))
+
+//await syntex
+const result = await math.sum()
+console.log(result)
+```
+{% endcode %}
+

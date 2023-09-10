@@ -47,7 +47,7 @@
     5. [পলিমরফিজম](https://nipu.gitbook.io/coding-js/class-and-oop/polymorphism)(Polymhorphism)
 18. [আমি ফিরে আসব](https://nipu.gitbook.io/coding-js/callback-function) (callback function)
 19. [প্রতিশ্রুতি](https://nipu.gitbook.io/coding-js/promise) (Pomise)
-20. [অসমনিয়ত ও অপেক্ষা](https://nipu.gitbook.io/coding-js/async-and-await) (Async & await)
+20. [Async এবং await](async-and-await.md) (Async & await)
 21. [এজ্যাক্স](https://nipu.gitbook.io/coding-js/ajax) (Ajax)
 22. [আনয়ন করা](https://nipu.gitbook.io/coding-js/fetch) (fetch)
 23. [ওয়েব স্টোরেজ](https://nipu.gitbook.io/coding-js/web-storeage) (Web storeage)

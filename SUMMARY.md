@@ -46,7 +46,7 @@
   * [সদস্য ক্রিয়াকলাপ(Member Function)](class/member-function.md)
   * [ইনহেরিটেন্স (Inhertance)](class/inhertance.md)
   * [এনসকেপসুলেশন (Encapsulations)](class/encapsulations.md)
-  * [অবস্ট্রাক্শন(Abstraction)](class/abstraction.md)
+  * [অবস্ট্রাকশন(Abstraction)](class/abstraction.md)
   * [পলিমরফিজম (Polymorphism)](class/polymorphism.md)
 * [আমি ফিরে আসব (callback function)](callback-function.md)
 * [প্রতিশ্রুতি(Promise)](promise.md)

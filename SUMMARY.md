@@ -31,7 +31,7 @@
   * [🔃 ফর লুপ(For loop)](13-loop/for-loop.md)
   * [🔃 ও্যাইয়ল লুপ (While Loop)](13-loop/while-loop.md)
   * [📿 পুনারাবৃত্তি (Iteration)](13-loop/iteration.md)
-* [ক্রিয়াকলাপ (Function)](14-function/README.md)
+* [ফাংশন (Function)](14-function/README.md)
   * [সাধারন ক্রিয়াকলাপ(Regular Function)](14-function/regular-function.md)
   * [তীর ক্রিয়াকলাপ(Arrow Function)](14-function/arrow-function.md)
   * [ক্রিয়াকলাপের ভিতরে ক্রিয়াকলাপ ( Nested Function)](14-function/nested-function.md)

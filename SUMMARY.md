@@ -50,7 +50,7 @@
   * [পলিমরফিজম (Polymorphism)](class/polymorphism.md)
 * [আমি ফিরে আসব (callback function)](callback-function.md)
 * [প্রতিশ্রুতি(Promise)](promise.md)
-* [অসমনিয়ত ও অপেক্ষা (Async & Await)](async-and-await.md)
+* [Async এবং await (Async & Await)](async-and-await.md)
 * [এজ্যাক্স (Ajax)](ajax.md)
 * [আনয়ন করা(fetch)](fetch.md)
 * [ওয়েব স্টোরেজ (Web Storage)](web-storeage/README.md)

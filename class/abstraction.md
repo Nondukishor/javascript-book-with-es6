@@ -41,3 +41,46 @@ person.greet();
 
 আবার একটা গল্পে গল্পেই বলি। ধরুন আপনার একটা ওয়াসিং মেশিন আছে এবং সে ওয়াসিং মেশিনের নাম হচ্ছে WWWC(Without wife Wash Cloth) এখন এই মেশি WWWC মেশিন টা তে আপনি যদি প্র্যোজন মতো ওয়াশিং পাঊডার আর কাপড় দিয়ে দেয় তাহলেই সে আপনাকে ঝকঝকে চক চকে কাপড় দিয়ে দিবে কিন্ত এই যে WWWC আপনার কাপড় টা ধুয়ে দিল কেমন করে করল? কিভাবে করল? কোন প্রসেস এ করল সেইটা আপনার একদম লুকানো । সুতরাং এই যে পদ্ধতি এইটা পুরোটায় হলো প্রসেস হাইডিং।&#x20;
 
+চলুন উদাহরণ দেখি একটাঃ-
+
+```javascript
+class CoffeeMachine {
+  constructor() {
+    this.waterTemperature = 90; // Private data
+  }
+
+  // Public method to start the coffee machine
+  start() {
+    this.boilWater();
+    this.brewCoffeeGrinds();
+    this.pourInCup();
+    this.serveCoffee();
+  }
+
+  // Private method to boil water (hidden process)
+  boilWater() {
+    console.log('Boiling water...');
+    this.waterTemperature = 100;
+  }
+
+  // Private method to brew coffee grinds (hidden process)
+  brewCoffeeGrinds() {
+    console.log('Brewing coffee...');
+  }
+
+  // Private method to pour coffee into a cup (hidden process)
+  pourInCup() {
+    console.log('Pouring coffee into a cup...');
+  }
+
+  // Private method to serve coffee (hidden process)
+  serveCoffee() {
+    console.log('Here is your coffee!');
+  }
+}
+
+const coffeeMachine = new CoffeeMachine();
+coffeeMachine.start(); // This invokes the process while hiding the implementation details
+
+```
+

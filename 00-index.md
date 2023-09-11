@@ -29,7 +29,7 @@
     2. [ও্যাইয়ল লুপ](https://nipu.gitbook.io/coding-js/loop/while-loop) (while loop)
     3. [পুনারাবৃত্তি](https://nipu.gitbook.io/coding-js/loop/iteration) (Iteration)
 16. [ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function) (function)
-    1. [সাধারন ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/regular-function) (Regular function)
+    1. [রেগুলার ফাংশন](14-function/regular-function.md) (Regular function)
     2. [অ্যারো ফাংশন](14-function/arrow-function.md) (Arrow functions)
     3. [নেস্টেড ফাংশন](14-function/nested-function.md) (nested function)
     4. [বন্ধ ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/closures-function) (closures)

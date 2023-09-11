@@ -24,6 +24,18 @@ source : [https://en.wikipedia.org/wiki/Inheritance\_(object-oriented\_programmi
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>image sourcce : <a href="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/170px-Multilevel_Inheritance.jpg">https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/170px-Multilevel_Inheritance.jpg</a></p></figcaption></figure>
 
+আপনি ঝখন কোন কিছু ক্লাসিফিকেশন করতে চাইছেন বা করতে চাচ্ছেন তখন কিন্তু এমন ইনহেরিটেন্স প্রয়োজন পরে। যেমন ধরুন আপনি প্রানীর শ্রেণী বিভেদ করতে চাইছেন&#x20;
+
+১। যারা উড়তে পারে
+
+২। যাদের পা আছে&#x20;
+
+৩। যাদের পা নেই
+
+৪। স্তন্য পায়ী কিনা
+
+বা আরো সুন্দর করে বলা যায় আপনি আপনার বাবা এবং দাদার কিছু গুন পেয়েছেন হয়ত চোখ আপনার বাবার মতো চেহেরা আপনার দাদার মতো ।&#x20;
+
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>ইনহেরিটেন্স </p></figcaption></figure>
 
 ছবি রেফারেন্সঃ [https://seleniumautomationtester.wordpress.com/2017/03/09/inheritance-in-java/](https://seleniumautomationtester.wordpress.com/2017/03/09/inheritance-in-java/)

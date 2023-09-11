@@ -49,7 +49,7 @@
 19. [প্রতিশ্রুতি](https://nipu.gitbook.io/coding-js/promise) (Pomise)
 20. [Async এবং await](async-and-await.md) (Async & await)
 21. [এজ্যাক্স](https://nipu.gitbook.io/coding-js/ajax) (Ajax)
-22. [আনয়ন করা](https://nipu.gitbook.io/coding-js/fetch) (fetch)
+22. [ফেচ](fetch.md) (fetch)
 23. [ওয়েব স্টোরেজ](https://nipu.gitbook.io/coding-js/web-storeage) (Web storeage)
     1. [সেশন ](web-storeage/session.md)( session)
     2. [কুকিস](https://nipu.gitbook.io/coding-js/web-storeage/cookies) (Cookies)

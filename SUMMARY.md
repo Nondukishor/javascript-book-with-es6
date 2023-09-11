@@ -52,7 +52,7 @@
 * [প্রতিশ্রুতি(Promise)](promise.md)
 * [Async এবং await (Async & Await)](async-and-await.md)
 * [এজ্যাক্স (Ajax)](ajax.md)
-* [আনয়ন করা(fetch)](fetch.md)
+* [ফেচ (fetch)](fetch.md)
 * [ওয়েব স্টোরেজ (Web Storage)](web-storeage/README.md)
   * [বিস্কিটের টুকরো (Cookies)](web-storeage/cookies.md)
   * [সেশন (Session)](web-storeage/session.md)

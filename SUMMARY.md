@@ -43,7 +43,7 @@
   * [পুনরাবৃত্ত ক্রিয়াকলাপ (Recursive Function)](14-function/recursive-function.md)
   * [উদ্ভাবক ক্রিয়াকলাপ (Generator Function)](14-function/generator-function.md)
 * [ক্লাস ও অবজেক্ট অরিয়েন্টেড (class & OOP)](class/README.md)
-  * [সদস্য ক্রিয়াকলাপ(Member Function)](class/member-function.md)
+  * [মেম্বার ফাংশন (Member Function)](class/member-function.md)
   * [ইনহেরিটেন্স (Inhertance)](class/inhertance.md)
   * [এনসকেপসুলেশন (Encapsulations)](class/encapsulations.md)
   * [অবস্ট্রাকশন(Abstraction)](class/abstraction.md)

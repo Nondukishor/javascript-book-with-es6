@@ -19,6 +19,48 @@
 
 ধরে নিলাম আপনার একটা ব্যাংক একাউন্ট আছে ব্যাংকের নাম হচ্ছে **মধুমালতী** ব্যাংক। এখন আপনি সেখানে টাকা রাখেন। রাখার আপনার টাকার পর এখানে অনেক অনেক জটিল হিসাব নিকাশ হয়। এছাড়া আপনি যখন  **মধুমালতী** ব্যাংক থেকে টাকা উত্তোলন করেন তখন ও কিন্তু অনেক ডাটা রিলেটেড হিসাব নিকাশ হয়। এই যে এত্ত ডাটার হিসাব নিকাশ হলো সেইটা কিন্তু আপনি একদম ই জানেন না কিভাবে হচ্ছে? কোন ডাটার সাথে হচ্ছে হয়ত আপনি একটা Higher Level এর ধারণা পাচ্ছেন এতে কোনো আপত্তি নেই কিন্তু ডাটাবেজের কোন কলাম কোন টেবিল বা কোন লজিকে ডাটা গুলো ক্যাল কুলেশন হচ্ছে একদম ই চোখে দেখছেন না হয়ত। আরো বুঝার জন্য চলুন আরো কিছু উদাহরন নিয়ে আলোচনা করি। তারপর আমরা আসলে রিয়েল টাইম কিছু উদাহরন দেখব। যেগুলো আমরা ভবিষ্যৎ এ কাজে লাগাব।&#x20;
 
+{% code title="Data hiding example" overflow="wrap" lineNumbers="true" %}
+```javascript
+class BankAccount {
+  constructor(accountNumber, balance = 0) {
+    this.accountNumber = accountNumber; // Private data
+    this.balance = balance; // Private data
+  }
+
+  // Method to get the account balance (data access)
+  getBalance() {
+    return this.balance;
+  }
+
+  // Method to deposit money (data modification)
+  deposit(amount) {
+    if (amount > 0) {
+      this.balance += amount;
+      console.log(`Deposited $${amount}. New balance: $${this.balance}`);
+    } else {
+      console.log('Invalid deposit amount.');
+    }
+  }
+
+  // Method to withdraw money (data modification)
+  withdraw(amount) {
+    if (amount > 0 && amount <= this.balance) {
+      this.balance -= amount;
+      console.log(`Withdrawn $${amount}. New balance: $${this.balance}`);
+    } else {
+      console.log('Invalid withdrawal amount or insufficient balance.');
+    }
+  }
+}
+
+const myAccount = new BankAccount('12345');
+console.log(`Account ${myAccount.accountNumber} balance: $${myAccount.getBalance()}`);
+myAccount.deposit(100);
+myAccount.withdraw(50);
+
+```
+{% endcode %}
+
 ধরুন আপনি একটা অ্যাপ্লিকেশন বানাচ্ছেন সেখানে ইউজার রেজিস্ট্রেশন করতে পারে লগিন করতে পারে  আর ইউজার এর ডাটা নিতে পারে। এখন এই অ্যাপ্লিকেশন আপনি নিশ্চয় ইউজারের ডাটা নেওয়ার সময় সব ডাটা নিবেন না যেমন পাসওয়ার্ড বা তার পিন কোড। এই যে আপনি ডাটা টা নিলেন না মানে আপনার কাছে ডাটা নাই তা কিন্তু না আপনি শুধু মাত্রা ডাটা টা লুকিয়ে রাখছেন একই বিষয় টা হতে পারে ATM কার্ড এর ক্ষেত্রে পিন নাম্বার হ্যাশ করে রাখা। একই বিষয় টা হতে পারে আপনার কোন সিক্রেট টোকেন হাইড করে রাখা।&#x20;
 
 ```javascript

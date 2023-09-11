@@ -33,7 +33,7 @@
   * [📿 পুনারাবৃত্তি (Iteration)](13-loop/iteration.md)
 * [ফাংশন (Function)](14-function/README.md)
   * [সাধারন ক্রিয়াকলাপ(Regular Function)](14-function/regular-function.md)
-  * [তীর ক্রিয়াকলাপ(Arrow Function)](14-function/arrow-function.md)
+  * [অ্যারো ফাংশন(Arrow Function)](14-function/arrow-function.md)
   * [নেস্টেড ফাংশন ( Nested Function)](14-function/nested-function.md)
   * [বন্ধ ক্রিয়াকলাপ(Closures Function)](14-function/closures-function.md)
   * [অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ অভিব্যক্তি (IIFE)](14-function/iife.md)

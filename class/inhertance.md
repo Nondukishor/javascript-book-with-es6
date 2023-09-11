@@ -8,17 +8,19 @@ source : [https://en.wikipedia.org/wiki/Inheritance\_(object-oriented\_programmi
 
 ইনহেরিটেন্স কত প্রকার ও কী কী?
 
-১। সিঙ্গেল ইনহেরিটেন্স
+**১। সিঙ্গেল ইনহেরিটেন্স**
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>image source: <a href="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Single_Inheritance.jpg/170px-Single_Inheritance.jpg">https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Single_Inheritance.jpg/170px-Single_Inheritance.jpg</a></p></figcaption></figure>
 
 এখানে আপনি গাড়িকে চিন্তা করতে পারেন যেখানে আসলে একটা গাড়ি অনেক টাইপের বা অনেক ধরনের হতে পারে কিন্তু তাদের বৈশিষ্ট্য গুলো কিন্তু সেইম অনেক ক্ষেত্রে সে কমন বৈশিষ্ট্য গুলোর উপর ভিত্তি করে আপনি জানাতে আপনি Vehicle নামে একটা ক্লাস বানালেন যেখানে আপনি আসলে কিছু কমন মেথড রাখবেন যেমন গাড়ির মডেল , কালার, গাড়ির চাকা ইত্যাদি ইত্যাদি। পরে আপনি সেই ক্লাস টা কে Car, Bike, Truck ধরনের ক্লাসের জন্য ব্যবহার করতে পারেন।&#x20;
 
-২। মাল্টিপল ইনহেরিটেন্স
+**২। মাল্টিপল ইনহেরিটেন্স**
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>image source: <a href="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Multiple_Inheritance.jpg/170px-Multiple_Inheritance.jpg">https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Multiple_Inheritance.jpg/170px-Multiple_Inheritance.jpg</a></p></figcaption></figure>
 
-৩। মাল্টি লেবেল ইনহেরিটেন্স
+ধরুন আপনার কাছে কেউ এসে বলল ভাই আমার অফিস সেটাপ করে দিতে হবে এবং আমি যাতে সব জায়গা থেকে আমার অফিসের সব কিছু দেখতে পারি এবং কন্ট্রো করতে পারি যেমন সিসি ক্যামরা , ওয়াই-ফাই , মনিটর সব কিছু । এই ধরনের সমস্যা এর ক্ষেত্রে যেহেতু সব কিছুর আলাদা আলাদা বৈশিষ্ট্য রয়েছে সেহেতু আমার প্যারেন্ট ক্লাসের ও ভিন্নতা আস্তে পারে কিন্ত আমরা যেহেতু এক জায়গা থেকে কন্ট্রো করতে চাইছি সে জন্য দরকার মাল্টিপল ইনহেরিটেন্স।  আশা করি বুঝতে পেরেছেন।&#x20;
+
+**৩। মাল্টি লেবেল ইনহেরিটেন্স**
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>image sourcce : <a href="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/170px-Multilevel_Inheritance.jpg">https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/170px-Multilevel_Inheritance.jpg</a></p></figcaption></figure>
 

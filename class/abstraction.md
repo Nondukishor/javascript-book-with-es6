@@ -43,6 +43,7 @@ person.greet();
 
 চলুন উদাহরণ দেখি একটাঃ-
 
+{% code title="Coffe machine process hiding" overflow="wrap" lineNumbers="true" %}
 ```javascript
 class CoffeeMachine {
   constructor() {
@@ -83,4 +84,5 @@ const coffeeMachine = new CoffeeMachine();
 coffeeMachine.start(); // This invokes the process while hiding the implementation details
 
 ```
+{% endcode %}
 

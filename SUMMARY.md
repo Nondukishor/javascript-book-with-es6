@@ -48,7 +48,7 @@
   * [এনসকেপসুলেশন (Encapsulations)](class/encapsulations.md)
   * [অবস্ট্রাকশন(Abstraction)](class/abstraction.md)
   * [পলিমরফিজম (Polymorphism)](class/polymorphism.md)
-* [আমি ফিরে আসব (callback function)](callback-function.md)
+* [কলব্যাক ফাংশন (callback function)](callback-function.md)
 * [প্রতিশ্রুতি(Promise)](promise.md)
 * [Async এবং await (Async & Await)](async-and-await.md)
 * [এজ্যাক্স (Ajax)](ajax.md)

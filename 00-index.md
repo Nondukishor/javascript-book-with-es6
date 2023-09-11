@@ -40,7 +40,7 @@
     9. [পুনরাবৃত্ত ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/recursive-function) (recursive function)
     10. [উদ্ভাবক ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/generator-function) (generator function)
 17. [ক্লাস ও অবজেক্ট অরিয়েন্টেড](https://nipu.gitbook.io/coding-js/class-and-oop)(class & object oriented programming)
-    1. [সদস্য ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/class-and-oop/member-function) (member functions)
+    1. [মেম্বার ফাংশন](class/member-function.md)   (member functions)
     2. [ইনহেরিটেন্স](https://nipu.gitbook.io/coding-js/class-and-oop/inhertance) (inhertance)
     3. [এনসকেপসুলেশন](https://nipu.gitbook.io/coding-js/class-and-oop/encapsulations) (encapsulations)
     4. [অবস্ট্রাক্শন](https://nipu.gitbook.io/coding-js/class-and-oop/abstraction)(Abstractions)

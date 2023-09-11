@@ -43,45 +43,50 @@ person.greet();
 
 চলুন উদাহরণ দেখি একটাঃ-
 
-{% code title="Coffe machine process hiding" overflow="wrap" lineNumbers="true" %}
+{% code title="Process hiding example" overflow="wrap" lineNumbers="true" %}
 ```javascript
-class CoffeeMachine {
+class WashingMachine {
   constructor() {
-    this.waterTemperature = 90; // Private data
+    this.powerOn = false; // Private data
+    this.waterLevel = 0;  // Private data
+    this.currentCycle = ''; // Private data
   }
 
-  // Public method to start the coffee machine
-  start() {
-    this.boilWater();
-    this.brewCoffeeGrinds();
-    this.pourInCup();
-    this.serveCoffee();
+  // Method to turn on the washing machine (data modification)
+  turnOn() {
+    if (!this.powerOn) {
+      this.powerOn = true;
+      console.log('Washing machine is now on.');
+    } else {
+      console.log('Washing machine is already on.');
+    }
   }
 
-  // Private method to boil water (hidden process)
-  boilWater() {
-    console.log('Boiling water...');
-    this.waterTemperature = 100;
+  // Method to select a washing cycle (data modification)
+  selectCycle(cycle) {
+    if (this.powerOn) {
+      this.currentCycle = cycle;
+      console.log(`Selected ${cycle} cycle.`);
+    } else {
+      console.log('Please turn on the washing machine first.');
+    }
   }
 
-  // Private method to brew coffee grinds (hidden process)
-  brewCoffeeGrinds() {
-    console.log('Brewing coffee...');
+  // Method to set the water level (data modification)
+  setWaterLevel(level) {
+    if (this.powerOn) {
+      this.waterLevel = level;
+      console.log(`Water level set to ${level}.`);
+    } else {
+      console.log('Please turn on the washing machine first.');
+    }
   }
 
-  // Private method to pour coffee into a cup (hidden process)
-  pourInCup() {
-    console.log('Pouring coffee into a cup...');
-  }
-
-  // Private method to serve coffee (hidden process)
-  serveCoffee() {
-    console.log('Here is your coffee!');
-  }
-}
-
-const coffeeMachine = new CoffeeMachine();
-coffeeMachine.start(); // This invokes the process while hiding the implementation details
+  // Method to start the washing cycle (hidden process)
+  startWash() {
+    if (this.powerOn && this.currentCycle !== '' && this.waterLevel > 0) {
+      console.log(`Starting the ${this.currentCycle} cycle with water level ${this.waterLevel}.`);
+      // Simulate washing
 
 ```
 {% endcode %}

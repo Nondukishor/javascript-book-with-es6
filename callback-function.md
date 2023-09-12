@@ -68,4 +68,24 @@ const result4 = calculator(1, 2, mul) //output: 2
 
 #### কলব্যাক হেল কি?
 
+কলব্যাক হেল এমন একটা বিষয় যেইটা Pyramid of Doom তৈরি করে। কথাটা শুনে একটু নতুন লাগলেও আমরা আস্তে আস্তে এইটা বুঝার চেষ্টা করব। চলুন একটা কোড দেখে নেই&#x20;
+
+{% code title="Pyramid-doom.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+fun1(function(value1){
+   fun2(function(value2){
+      fun3(function(value3){
+         fun4(function(value4){
+            func5(function(value5){
+              func6(fuction(value6){
+                console.log(value6)
+             })
+           })
+         })
+      })
+   })
+})
+```
+{% endcode %}
+
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

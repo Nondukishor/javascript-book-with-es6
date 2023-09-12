@@ -2,7 +2,7 @@
 
 * [কোডিং JS](README.md)
 * [সূচিপত্র(Index)](00-index.md)
-* [ভূমিকা](01-intro.md)
+* [ভূমিকা](intro.md)
 * [লেখক পরিচিতি(Writter Intro)](writter-intro.md)
 * [ইতিহাস](02-history.md)
 * [জাভাস্ক্রিপ্টের বিস্তার কত দূর?](features.md)

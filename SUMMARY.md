@@ -50,7 +50,7 @@
   * [অবস্ট্রাকশন(Abstraction)](class/abstraction.md)
   * [পলিমরফিজম (Polymorphism)](class/polymorphism.md)
 * [কলব্যাক ফাংশন (callback function)](callback-function.md)
-* [প্রতিশ্রুতি(Promise)](promise.md)
+* [প্রমিস (Promise)](promise.md)
 * [Async এবং await (Async & Await)](async-and-await.md)
 * [এজ্যাক্স (Ajax)](ajax.md)
 * [ফেচ (fetch)](fetch.md)

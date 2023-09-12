@@ -12,7 +12,7 @@
 
 ইতিহাসের গল্পটাকে চিত্রায়িত করা হলো &#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>কুকিস ইতিহাস </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>কুকিস ইতিহাস </p></figcaption></figure>
 
 ```javascript
 <!DOCTYPE html>

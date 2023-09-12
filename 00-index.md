@@ -51,10 +51,10 @@
 21. [এজ্যাক্স](https://nipu.gitbook.io/coding-js/ajax) (Ajax)
 22. [ফেচ](fetch.md) (fetch)
 23. [ওয়েব স্টোরেজ](https://nipu.gitbook.io/coding-js/web-storeage) (Web storeage)
-    1. [সেশন ](web-storeage/session.md)( session)
+    1. [সেশন ](web-api/web-storeage/session.md)( session)
     2. [কুকিস](https://nipu.gitbook.io/coding-js/web-storeage/cookies) (Cookies)
 24. [ওয়েভ এপি আই](https://nipu.gitbook.io/coding-js/web-api) (Web API)
 25. [জে এস ডোম](https://nipu.gitbook.io/coding-js/js-dom) (DOM)
 26. [জাভাস্ক্রিপ্ট স্টাইল](https://nipu.gitbook.io/coding-js/js-style) (JS Style)
-27. [এপি আই কি কেন ?](22-what-is-api.md) (What is API & Why?)
+27. [এপি আই কি কেন ?](22-what-is-api/) (What is API & Why?)
 28. [ফ্রেম ওয়ার্ক লাইব্রেরী নিয়ে খোশ গল্প](23-framework-library-gossip.md) (Gossip with Framework & Library)\

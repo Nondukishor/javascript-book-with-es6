@@ -38,24 +38,30 @@ Office(servent)
 আশা করি বুঝে গেছেন কলব্যাক ফাংশন কি এবং কেন লিখতে হয়। এখন আমরা দেখব আসলে কলব্যাক ফাংশন দিয়ে আসলে আমরা কি ধরণের সমস্যার সমাধান করতে পারি। তার আগে একটা কোড লিখে নেই।
 
 ```javascript
-function calculator(numbers, callbackFn){
-   return callbackFn(numbers)
+function calculator(number1, number2, callbackFn){
+   return callbackFn(number1, number2)
 }
 
-function sum(numbers){
-  return numbers.reduce((a, c)=>{
-    return a+c
-  }, 0)
+function sum(number1, number2){
+  return number1 +number2
 }
 
-function sub(){
-   return numbers.reduce((a, c)=>{
-    if(a>c)
-      return a-c
-    else
-      return c-a
-  }, 0)
+function sub(number1, number2){
+  return number1 - number2
 }
+
+function div(number1, number2){
+  return number1 / number2
+}
+
+function mul(number1, number2){
+  return number1 * number2
+}
+
+const result1 = calculator(1, 2, sum) //output: 3
+const result2 = calculator(1, 2, sub) //output: -1
+const result3 = calculator(1, 2, div) //output: 0.5
+const result4 = calculator(1, 2, mul) //output: 2
 ```
 
 উপরের কোড গুলো লক্ষ্য করলে দেখবেন এইখানে আসলে কোন ফাংশনে যে ডাটা টা দেওয়া হচ্ছে সে ডাটার উপর ভিত্তি করে ভিন্ন ভিন্ন সময়ে ভিন্ন অপারেশনের প্রয়োজন পরে আর এইসব ধরনের সমস্যা সমাধনের জন্যই মুলত কলব্যাক ফাংশনের উদ্ভব হয়েছে। বিষয়টা মজার।&#x20;

@@ -38,7 +38,7 @@ cat.speak(); // Output: Whiskers makes a sound.
 >
 >
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 কোডটা লক্ষ্য করলে দেখবেন আমি এইখানে Animal নামে একটা কন্সট্রাক্টর ফাংশন বানিয়ে নিয়েছি পরে একটা Dog নামে ফাংশন কন্সট্রাক্টর বানিয়ে তাতে Animal ফাংশন টা কে কল করে নিয়েছি যাতে করে Animal ফাংশন টা Dog ফাংশনের পরিচয় নেয় সে জন্য তাতে this মানে Dog ফাংশন কে নির্দেশ করে দিয়েছি।  একই কাজ টা আমি Cat ফাংশনের ক্ষেত্রে ও করে দিয়েছি। পরে Animal.prototype দিয়ে আমি Animal ফাংশনটার prototype এ speak  নামে একটা ফাংশন যুক্ত করে দিয়েছি এবং পরে আমি Dog এবং Cat এর জন্য অবজেক্ট বানিয়ে নিয়েছি এবং সেই অবজেক্ট থেকে স্পিক নামে ফাংশন টা কল করেছি। নিচের মতো করে।&#x20;
 

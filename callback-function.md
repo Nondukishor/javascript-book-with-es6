@@ -68,3 +68,4 @@ const result4 = calculator(1, 2, mul) //output: 2
 
 #### কলব্যাক হেল কি?
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

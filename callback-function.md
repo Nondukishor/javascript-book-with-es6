@@ -1,4 +1,4 @@
-# আমি ফিরে আসব (callback function)
+# কলব্যাক ফাংশন (callback function)
 
 কলব্যাক ফাংশন জিনিসটা হলো একটা ফাংশনের ভিতরে আরেকটা ফাংশন আরগুমেন্ট হিসেবে দেওয়া হয় এবং সে ফাংশন টি ঐ ফাংশনের ভিতরে কাল করা হয় । এই পদ্ধতি ব্যাবহার করে একটা ফাংশন দিয়ে অন্য একটা ফাংশন কে কল করা যায়।&#x20;
 
@@ -35,7 +35,28 @@ function Office(worker){
 Office(servent)
 ```
 
-আশা করি বুঝে গেছেন কলব্যাক ফাংশন কি এবং কেন লিখতে হয়।
+আশা করি বুঝে গেছেন কলব্যাক ফাংশন কি এবং কেন লিখতে হয়। এখন আমরা দেখব আসলে কলব্যাক ফাংশন দিয়ে আসলে আমরা কি ধরণের সমস্যার সমাধান করতে পারি। তার আগে একটা কোড লিখে নেই।
+
+```javascript
+function calculator(numbers, callbackFn){
+   return callbackFn(numbers)
+}
+
+function sum(numbers){
+  return numbers.reduce((a, c)=>{
+    return a+c
+  }, 0)
+}
+
+function sub(){
+   return numbers.reduce((a, c)=>{
+    if(a>c)
+      return a-c
+    else
+      return c-a
+  }, 0)
+}
+```
 
 
 

@@ -68,3 +68,4 @@
   * [রেস্ট এপি আই(REST API)](22-what-is-api/rest-api.md)
 * [ফ্রেমওয়ার্ক লাইব্রেরী নিয়ে খোশ গল্প](23-framework-library-gossip.md)
 * [জাভাস্ক্রিপ্টের বিল্ডইন কী ওয়ার্ড(Javascript Build in keyword)](keyword.md)
+* [কৃতজ্ঞতা স্বীকার](undefined.md)

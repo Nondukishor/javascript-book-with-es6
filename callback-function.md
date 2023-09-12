@@ -88,4 +88,4 @@ fun1(function(value1){
 ```
 {% endcode %}
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+এই যে কোড টা দেখছেন এইটা কিন্তু দেখতে অনেকটা পিরামিড এর মতো লাগছে তাই না আর এইটা তৈরি হয়েছে নেস্টেড কলব্যাক এর কারণে।&#x20;

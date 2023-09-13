@@ -103,6 +103,37 @@ console.log(result)
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>কনকারেন্সি</p></figcaption></figure>
 
+####
+
+{% code title="concurrency.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+function routine(task, time) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(task);
+    }, 60000 * time); // 1 min = 60000 ms
+  });
+}
+
+async function main() {
+  const task_list = ['Brush', 'Bath', 'Praying', 'Breakfast'];
+  const times_for_task = [10, 30, 30, 30]
+
+  const task_completed_log = await Promise.all(task_list.map((task, index)=> {
+    return fetchData(task,times_for_task[i])
+  }));
+
+  console.log('completed task logs:');
+  task_completed_log .forEach(log=> {
+    console.log(log);
+  });
+}
+
+main();
+
+```
+{% endcode %}
+
 #### প্যরালাললিজমঃ
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>

@@ -136,4 +136,94 @@ main();
 
 #### প্যরালাললিজমঃ
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>প্যারালাললিজম</p></figcaption></figure>
+
+{% code title="main.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+// Create a worker for brushing
+const brushWorker = new Worker('brush-worker.js');
+brushWorker.postMessage('Start brushing!');
+
+// Create a worker for cleaning the bedroom
+const cleanWorker = new Worker('clean-worker.js');
+cleanWorker.postMessage('Start cleaning the bedroom!');
+
+// Create a worker for cooking breakfast
+const cookWorker = new Worker('cook-worker.js');
+cookWorker.postMessage('Start cooking breakfast!');
+
+// Create a worker for watching the news on TV
+const watchTvWorker = new Worker('watch-tv-worker.js');
+watchTvWorker.postMessage('Start watching TV!');
+
+// Listen for messages from workers
+brushWorker.onmessage = (event) => {
+  console.log(`You: ${event.data}`);
+};
+
+cleanWorker.onmessage = (event) => {
+  console.log(`Your wife: ${event.data}`);
+};
+
+cookWorker.onmessage = (event) => {
+  console.log(`Your mom: ${event.data}`);
+};
+
+watchTvWorker.onmessage = (event) => {
+  console.log(`Your father: ${event.data}`);
+};
+
+```
+{% endcode %}
+
+
+
+
+
+{% code title="brush-worker.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+self.onmessage = (event) => {
+  console.log(`Brushing: ${event.data}`);
+  self.postMessage('Finished brushing!');
+};
+
+```
+{% endcode %}
+
+
+
+
+
+{% code title="clean-worker.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+self.onmessage = (event) => {
+  console.log(`Cleaning the bedroom: ${event.data}`);
+  self.postMessage('Finished cleaning the bedroom!');
+};
+
+```
+{% endcode %}
+
+
+
+{% code title="cook-worker.js" overflow="wrap" lineNumbers="true" %}
+```
+self.onmessage = (event) => {
+  console.log(`Cooking breakfast: ${event.data}`);
+  self.postMessage('Finished cooking breakfast!');
+};
+
+```
+{% endcode %}
+
+
+
+{% code title="watch-tv-worker.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+self.onmessage = (event) => {
+  console.log(`Watching TV: ${event.data}`);
+  self.postMessage('Finished watching TV!');
+};
+
+```
+{% endcode %}

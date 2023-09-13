@@ -101,4 +101,9 @@ console.log(result)
 
 #### কনকারেন্সিঃ
 
-#### প্যরালিসমঃ
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>কনকারেন্সি</p></figcaption></figure>
+
+#### প্যরালাললিজমঃ
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>প্যরালাললিজম</p></figcaption></figure>
+

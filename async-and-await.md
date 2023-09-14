@@ -162,7 +162,65 @@ Call to routine took 30.023713645003735 sec. expected time was 100 sec
 
 #### প্যরালাললিজমঃ
 
+**Parallelism** বিষয়টা দেখতে অনেকটা কনকারেন্সি এর মতো দেখালেও কিন্তু একই না । নিচের চিত্রটি দেখুন।
+
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>প্যারালাললিজম</p></figcaption></figure>
+
+একটু যদি ভাল করে লক্ষ্য করুন দেখবেন বিষয় একটু ভিন্নতা আছে আগের উদাহরণে কিন্তু আপনি একটা করছিলেন সব কিন্তু আমাদের এবারের চিত্রে কিন্তু আলাদা আলাদা মানুষ কাজ গুলো সম্পন্ন করছে। এবং তারা তাদের মত করে আলাদা স্পেসে করছে এবং আলাদা টাইমে করছে। এইটাই মূলত **প্যারালালিজম** । একই সময়ে ভিন্ন ভিন্ন থ্রেড দ্বারা কাজ করায় হচ্ছে **প্যারালালিজম।** আসুন এবার কোড করে বিষয়টা বুঝে নেই।&#x20;
+
+জাভাস্ক্রিপ্টে কিন্তু worker নামে একটা বিল্ডিইন এপি আই আছে যেইটা আমাদের একই সময় আলাদা আলাদা থ্রেড ব্যবহারের সুবিধা দিয়ে থাকে।
+
+সেই Worker API দিয়ে আমরা প্রথমে কিছু Worker বানিয়ে নেই brush-worker.js, clean-worker.js, cook-worker.js, watch-tv-worker.js নামে নিচের মতো করে এবং কোড গুলো লিখে নেই।
+
+{% code title="brush-worker.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+self.onmessage = (event) => {
+  console.log(`Brushing: ${event.data}`);
+  self.postMessage('Finished brushing!');
+};
+
+```
+{% endcode %}
+
+
+
+{% code title="clean-worker.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+self.onmessage = (event) => {
+  console.log(`Cleaning the bedroom: ${event.data}`);
+  self.postMessage('Finished cleaning the bedroom!');
+};
+
+```
+{% endcode %}
+
+
+
+{% code title="cook-worker.js" overflow="wrap" lineNumbers="true" %}
+```
+self.onmessage = (event) => {
+  console.log(`Cooking breakfast: ${event.data}`);
+  self.postMessage('Finished cooking breakfast!');
+};
+
+```
+{% endcode %}
+
+
+
+{% code title="watch-tv-worker.js" overflow="wrap" lineNumbers="true" %}
+```javascript
+self.onmessage = (event) => {
+  console.log(`Watching TV: ${event.data}`);
+  self.postMessage('Finished watching TV!');
+};
+
+```
+{% endcode %}
+
+আমাদের Worker বানানো শেষ হলে এখন আমরা সেই Worker  গুলো মেইন থ্রেডে নিয়ে আসব তাই প্রথমেই main.js নামে একটা ফাইল বানাব এবং নিচে লেখা কোডের মতো করে Worker গুলো ইমপ্লিমেন্ট করে নিব। করা&#x20;
+
+করা শেষ হলে এখন আমরা Worker এ আমাদের মেইন থ্রেড থেকে মেসেজ পাঠাবো ৩, ৭ , ১১ এবং ১৫ নাম্বার লাইনের মতো করে। এবার আমরা সে আমাদের Worker  এর সাথে যোগাযোগ করে আমাদের যে ডাটা দিবে সেই ডাটা আমরা রিসিভ করব। ১৮,২২, ২৬ এবং ৩০ নাম্বার লাইনের মতো করে। ব্যাস আমাদের কাজ শেষ। ওয়ার্কার গুলো তাদের মতো করে কমিউনিকেশন করে নিবে এবং ডাটা দিয়ে দিবে কোন সমস্যা ছাড়াই। Worker এপি আই নিয়ে আমি আরো বিস্তারিত লিখেছি ওয়েব এপি আই অধ্যায়ে তাই এইখানে আর বেশি বললাম না।&#x20;
 
 {% code title="main.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
@@ -202,54 +260,3 @@ watchTvWorker.onmessage = (event) => {
 ```
 {% endcode %}
 
-
-
-
-
-{% code title="brush-worker.js" overflow="wrap" lineNumbers="true" %}
-```javascript
-self.onmessage = (event) => {
-  console.log(`Brushing: ${event.data}`);
-  self.postMessage('Finished brushing!');
-};
-
-```
-{% endcode %}
-
-
-
-
-
-{% code title="clean-worker.js" overflow="wrap" lineNumbers="true" %}
-```javascript
-self.onmessage = (event) => {
-  console.log(`Cleaning the bedroom: ${event.data}`);
-  self.postMessage('Finished cleaning the bedroom!');
-};
-
-```
-{% endcode %}
-
-
-
-{% code title="cook-worker.js" overflow="wrap" lineNumbers="true" %}
-```
-self.onmessage = (event) => {
-  console.log(`Cooking breakfast: ${event.data}`);
-  self.postMessage('Finished cooking breakfast!');
-};
-
-```
-{% endcode %}
-
-
-
-{% code title="watch-tv-worker.js" overflow="wrap" lineNumbers="true" %}
-```javascript
-self.onmessage = (event) => {
-  console.log(`Watching TV: ${event.data}`);
-  self.postMessage('Finished watching TV!');
-};
-
-```
-{% endcode %}

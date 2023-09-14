@@ -156,6 +156,10 @@ Call to routine took 30.023713645003735 sec. expected time was 100 sec
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>concurrency</p></figcaption></figure>
 
+বুঝতেই পারছেন প্রথম ১০ সেকেন্ডে প্রথম টাস্ক কমপ্লিট করে ফেলে এবং টিক বাকি টাস্ক গুলো কমপ্লিট হতে ২০ সেকেন্ড লাগবে কারণ ইতিমধ্যেই ১০ সেকেন্ড অতিক্রম হয়ে গেছে পরবর্তী টাস্ক গুলো ২০ সেকেন্ড ধরে এক্সকিউট হয়ে একই সময় পরে আউটপুট দিবে।&#x20;
+
+> NOTE: কিছু সেকেন্ড যেগুলো বেশি দেখছেন এগুলো এই টাস্ক প্রসেস এর সাথে যে অন্যান্য কোড গুলো আছে সেগুলোর ও একটা প্রসেস টাইম আছে তাই ছাড়া **External Factors, Precision of Timing** এবং **Overhead** এই রকম অনেক গুলো ফ্যাক্টর আছে যার কারনে ৩০ সেকেন্ড থেকেও একটু বেশি সময় লেগেছে।
+
 #### প্যরালাললিজমঃ
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>প্যারালাললিজম</p></figcaption></figure>

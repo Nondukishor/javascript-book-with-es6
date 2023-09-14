@@ -99,11 +99,17 @@ console.log(result)
 
 
 
-#### কনকারেন্সিঃ
+#### সিকুয়েন্সিয়াল প্রসেসঃ&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>কনকারেন্সি</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>সিকুয়েন্সিয়াল প্রসেস</p></figcaption></figure>
 
-####
+উপরের চিত্র দেখে বুঝে যাবেন যে আমরা এইখানে একটা কাজের পর আরেকটা কাজ করছি এর এই বিষয়টা হচ্ছে সিকুয়েন্সিয়াল প্রসেস । যা জাভাস্ক্রিপ্ট ইন্টারপ্রেটারের মধ্যমে **Synchronous** ভাবে করে।&#x20;
+
+**কনকারেন্সিঃ**&#x20;
+
+কেমন হতো যদি একই সময়কে ভাগ করে নিতে পারতেন মানে একই সময় আপনি একের অধিক কাজ করে ফেলছেন। যেমন ধরুন আপনি কোড করতে করতে মুভি দেখছেন অথবা মুভি দেখতে দেখতে পপকর্ন খাচ্ছেন আবার সাথে সাথে ফেইসবুকে নিউজ ফিডে আপনার বন্ধু বউয়ের সাথে কক্সবাজার গিয়ে ভিডিও দিয়েছে সেইটা দেখছেন তাই দেখে একই সাথে মন খারাপ করছেন। একটু ভেবে দেখুন তো কাজ গুলো কিন্তু আপনি একটা সময় কে ভাগ করে করে ফেলছেন মানে আপনি কোন একক সময়ে ভিন্ন ভিন্ন কাজ করে ফেলছেন যেইটা আপনি সিকুয়েন্সিয়েলি করতে গেলে টাইম বেশি লাগত।&#x20;
+
+আশা করি বুঝে গেছেন কনকারেন্সি কি? কনকারেন্সি হচ্ছে কোন একক সময় ভিন্ন ভিন্ন কাজ কে একসাথে করার একটা উপায়।
 
 {% code title="concurrency.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
@@ -111,28 +117,38 @@ function routine(task, time) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(task);
-    }, 60000 * time); // 1 min = 60000 ms
+    }, 1000 * time); // 1 sec = 1000 ms
   });
 }
 
 async function main() {
-  const task_list = ['Brush', 'Bath', 'Praying', 'Breakfast'];
+ 
+const task_list = ['Watching movie', 'Eating popcorn', 'Using facebook', 'Getting upset'];
   const times_for_task = [10, 30, 30, 30]
-
+  const t0 = performance.now();
   const task_completed_log = await Promise.all(task_list.map((task, index)=> {
-    return fetchData(task,times_for_task[i])
+    return routine(task,times_for_task[index])
   }));
-
-  console.log('completed task logs:');
-  task_completed_log .forEach(log=> {
-    console.log(log);
-  });
+  console.log("task completed",task_completed_log)
+  const t1 = performance.now();
+  console.log(`Call to routine took ${(t1 - t0)/1000} sec. expected time was ${((10*1000)+(30*1000)+(30*1000)+(30*1000))/1000} sec`);
 }
-
-main();
-
 ```
 {% endcode %}
+
+**output**
+
+```sh
+task completed [
+  'Watching movie',
+  'Eating popcorn',
+  'Using facebook',
+  'Getting upset'
+]
+Call to routine took 30.023713645003735 sec. expected time was 100 sec
+```
+
+উপরের কোডটা লক্ষ্য করলে দেখবেন আমি আমি একসাথে অনেকগুলো টাস্ক কে এক্সিকিউশন প্রসেস এর মধ্য দিয়েছি। যেগুলো আসলে **Asynchronous** টাস্ক সে একটা টাস্কের জন্য এইখানে আমি টাইম বল দিয়েছি যে একটা টাস্ক কয় মিনিট ধরে এক্সিকিউশন প্রক্রিয়ার মধ্য দিয়ে যাবে।&#x20;
 
 #### প্যরালাললিজমঃ
 

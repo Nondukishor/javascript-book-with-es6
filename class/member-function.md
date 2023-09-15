@@ -13,7 +13,7 @@ class BlackBox{
    }
    
    static member_0(){
-     return "I can make make copy without my monther's help"
+     return "I can make coffee without my monther's help"
    }
    
    member1(){

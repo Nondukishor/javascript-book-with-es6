@@ -82,7 +82,53 @@ fetchData()
 
 #### Promise.any()
 
+Prmise.any() প্যারামিটার হিসেবে একটা অ্যারে নেয় এবং যেইটা এক্সিকিউশন হতে টাইম কম নেই সেই প্রমিসটা  রিসিভ করে এবং রিটার্ন করে দেয়। সেইক্ষেত্রে যদি কোন একটা প্রমিস রিজেক্ট ও হয় সে সেইটা না দেখিয়ে যে প্রমিসটা দ্রুত রিসল্ভ হয়েছে সেইটা দেখায়।&#x20;
+
+```javascript
+const promise1= Promise.resolve(50);
+const promise2= Promise.resolve(60);
+const promise3= Promise.resolve(70);
+const promise4 = Promise.reject(0);
+
+const promises = [promise1, promise2, promise3, promise4];
+Promise.any(promises)
+  .then(result => console.log(result))
+  .catch(error => console.log(error));
+```
+
+**output:**
+
+```
+50
+```
+
 #### Promise.all()
+
+Prmise.all() প্যারামিটার হিসেবে একটা অ্যারে নেয় এবং সবগুলো প্রমিশ রিসলভ হওয়ার পরে রেজাল্ট রিসিভ করে এবং রিটার্ন করে দেয়। কিন্তু যদি কোন প্রমিস রিজেক্ট হয় সে ক্ষেত্র সে শুধু রিজেক্ট প্রমিস টা রিটার্ন করে। নিচের কোডটার আউটপুটের দিকে লক্ষ্য করলে দেখবেন প্রথম ক্ষেত্রে সে সব গুলো রিসল্ভ প্রমিসের আউটপুট দিলেও দ্বিতীয় ক্ষেত্রে দেয়নি।
+
+```javascript
+const promise1= Promise.resolve(50);
+const promise2= Promise.resolve(60);
+const promise3= Promise.resolve(70);
+const promise4 = Promise.reject(0);
+
+const promisesWithoutReject = [promise1, promise2, promise3];
+Promise.all(promisesWithoutReject)
+  .then(result => console.log(result))
+  .catch(error => console.log(error));
+  
+const promisesWithReject = [promise1, promise2, promise3, promise4];
+Promise.all(promisesWithReject)
+  .then(result => console.log(result))
+  .catch(error => console.log(error));
+```
+
+**output**
+
+```
+[ 50, 60, 70 ]
+0
+```
 
 #### Promise.race()
 

@@ -172,8 +172,7 @@ Promise.allSettled(promises).then((results) => results.forEach((result) => conso
 
 output:
 
-```javascript
-// Expected output:
-// "fulfilled"
-// "rejected"
+```sh
+fulfilled
+rejected
 ```

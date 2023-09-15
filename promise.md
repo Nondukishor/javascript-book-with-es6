@@ -132,5 +132,48 @@ Promise.all(promisesWithReject)
 
 #### Promise.race()
 
+Promise.race() প্যারামিটার হিসেবে একটা অ্যারে নেয় এবং সবচেয়ে দ্রুত রিসল্ভ কৃত প্রমিসের আউটপুটটা রিটার্ন করে দেয়।&#x20;
+
+```javascript
+const promise1 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 500, 'one');
+});
+
+const promise2 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, 'two');
+});
+
+Promise.all([promise1, promise2])
+  .then(result => console.log(result))
+  .catch(error => console.log(error));
+```
+
+**output:**
+
+```
+two
+```
+
 #### Promise.allSettled()
 
+Promise.allSettled প্যারামিটার হিসেবে একটা অ্যারে নেয় এবং রিজেক্টেট এবং রিসল্ভ উভয় টাইপের রিজাল্ট গুলো রিটার্ন করে এক্সিকিশনের পরে।
+
+{% code title="" overflow="wrap" lineNumbers="true" %}
+```javascript
+const promise1 = Promise.resolve(3);
+const promise2 = new Promise((resolve, reject) => setTimeout(reject, 100, 'foo'));
+const promises = [promise1, promise2];
+
+Promise.allSettled(promises).then((results) => results.forEach((result) => console.log(result.status)));
+```
+{% endcode %}
+
+
+
+output:
+
+```javascript
+// Expected output:
+// "fulfilled"
+// "rejected"
+```

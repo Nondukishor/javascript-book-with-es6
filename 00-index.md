@@ -34,7 +34,7 @@
     3. [নেস্টেড ফাংশন](14-function/nested-function.md) (nested function)
     4. [বন্ধ ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/closures-function) (closures)
     5. [আই. আই. এফ. ই.](14-function/iife.md) (Imidiate invoked function expression)
-    6. [উচ্চ আদেশ ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/higher-order-function) (Higher Order Functions)
+    6. [হাইয়ার অর্ডার ফাংশন](14-function/higher-order-function.md)(Higher Order Functions)
     7. [সংবাহন ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/currying-function) (Currying function)
     8. [নাম ক্রিয়াকলাপ অস্তিত্ব](https://nipu.gitbook.io/coding-js/function/nfe) (Named Entity function)
     9. [পুনরাবৃত্ত ক্রিয়াকলাপ](https://nipu.gitbook.io/coding-js/function/recursive-function) (recursive function)

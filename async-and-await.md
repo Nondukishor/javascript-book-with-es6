@@ -58,12 +58,12 @@ async function sum() {
   return 2+3
 }
 
-//With Promise syntex
+//With Promise syntax
 sum.then(function(response){
   return response;
 })
 
-//with await syntex
+//with await syntax
 const result = await sum()
 
 // with arrow function
@@ -71,10 +71,10 @@ const sum = async ()=>{
  return 2+2;
 }
 
-//Promise syntex
+//Promise syntax
 sum.then(res=>console.log(res))
 
-// await syntext 
+// await syntax 
 const result = await sum()
 console.log(result)
 
@@ -88,16 +88,16 @@ class Mathmatic{
 
 const math = Mathmatic()
 
-//Promise Syntex
+//Promise syntax
 math.sum().then(res=>console.log(res))
 
-//await syntex
+//await syntax
 const result = await math.sum()
 console.log(result)
 ```
 {% endcode %}
 
-এখন আসুন await নামে যে বিষয় টা আছে সেইটার একটু  গভীরে যায়। আসলে await বিষয় টা হচ্ছে, আমরা যে বিষয়টা **Asynchronous** ভাবে করতে চাইছিলাম সেইটা এখন **synchronous** ভাবে করতে চাইছি মানে আমি আবার এই কাজ টা জাভাস্ক্রিপ্টের ডিফল্ট ওয়েতে করতে চাইছি । আশা করি বুঝতে পেরেছেন। তাছাড়া আমরা যে প্রমিসে then চেইনিং মেথড এর ব্যাবহার করতাম তার কাজটাও কমিয়ে দিচ্ছে। await ব্যবহার করলে তখন আর এই চেইনিং মেথড এর দরকার পরে না তবে চেইনিং মেথড এর ইউস কেইস কিন্তু অন্য ব্যাপার কে বুজায়, বলে রাখলাম।&#x20;
+এখন আসুন **await** নামে যে বিষয় টা আছে সেইটার একটু  গভীরে যায়। আসলে **await** বিষয় টা হচ্ছে, আমরা যে বিষয়টা **Asynchronous** ভাবে করতে চাইছিলাম সেইটা এখন **synchronous** ভাবে করতে চাইছি মানে আমি আবার এই কাজ টা জাভাস্ক্রিপ্টের ডিফল্ট ওয়েতে করতে চাইছি । আশা করি বুঝতে পেরেছেন। তাছাড়া আমরা যে প্রমিসে then চেইনিং মেথড এর ব্যাবহার করতাম তার কাজটাও কমিয়ে দিচ্ছে। await ব্যবহার করলে তখন আর এই চেইনিং মেথড এর দরকার পরে না তবে চেইনিং মেথড এর ইউস কেইস কিন্তু অন্য ব্যাপার কে বুজায়, বলে রাখলাম।&#x20;
 
 
 

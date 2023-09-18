@@ -15,7 +15,7 @@ description: >-
 
 ## **ব্রাঊজারে কি কি থাকে (**What is in the browser?)
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>ব্রাউজার স্টাকচার</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **১। Browser User Interface:** আমরা ব্রাউজার ওপেন করে যে ইন্টারফেস দেখতে পায় সেইটাই মূলত ইউজার ইন্টারফেস। ইউজারের সুবিধার কথা চিন্তা করে এখানে কিছু টুলস দেওয়া হয় যেমনঃ
 

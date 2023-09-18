@@ -33,4 +33,22 @@ description: >-
 
 এইটা মূলত ব্রাউজারে একদম মুল উপদান। যা সব ব্রাউজারেই বিদ্যমান রয়েছে। এটি মুলত রেন্ডারিং ইঞ্জিন এবং ইউজার ইন্টারফেসের মাঝে অনেকটা ব্রিজ হিসেবে কাজ করে। প্রতিটা ব্রাউজারে Browser Engine স্বতন্ত্র হয়ে থাকে। ব্যবহারকারী এইখানে যেভাবে ইনপুট দিবে সেভাবে Browser Engine ব্রাউজারের Rendering Engine এর সাথে কমিউনিকেশন করে আউটপুট দিয়ে দিবে ইউজারকে।&#x20;
 
+#### **Rendering Engine:**
+
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+#### **Networking:**
+
+
+
+#### **JavaScript Interpreter:**
+
+
+
+**UI Backend:**&#x20;
+
+
+
+**Data Storage/Persistence:**
+
 [https://www.chromium.org/blink/](https://www.chromium.org/blink/)

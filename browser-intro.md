@@ -7,9 +7,7 @@ description: >-
 
 # ব্রাউজার পরিচিতি
 
-ওয়েব ব্রাউজার হচ্ছে একটি সফ্টওয়্যার অ্যাপ্লিকেশন যা ব্যবহারকারীকে টেক্সট, ছবি, ভিডিও, মিউজিক অন্য একটি  ওয়েবসাইট দেখাতে সাহায্য করে । একটি ওয়েব পেইজে অনেক গুলো URL থাকতে পারে ব্রাউজার সেগুলোকেও এক্সেস করতে সাহায্য করে।&#x20;
-
-
+ওয়েব ব্রাউজার হচ্ছে একটি সফ্টওয়্যার অ্যাপ্লিকেশন যা ব্যবহারকারীকে টেক্সট, ছবি, ভিডিও, মিউজিক অন্য একটি  ওয়েবসাইট দেখাতে সাহায্য করে । একটি ওয়েব পেইজে অনেক গুলো URL থাকতে পারে। ব্রাউজার সেগুলোকেও এক্সেস করতে সাহায্য করে।&#x20;
 
 ## প্রোটোকল এবং স্ট্যান্ডার্ডস (Protocols and Standards):
 
@@ -17,25 +15,18 @@ description: >-
 
 ## **ব্রাঊজারে কি কি থাকে (**What is in the browser?)
 
-1. #### **User Interface**
-2. #### **Browser Engine**
-3. **Rendering engine**
-4. **Networking**
-5. **UI-Backend**
-6. **Javascript Interpreter**
-7. **Data Persistant**
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>ব্রাউজার স্টাকচার</p></figcaption></figure>
 
-## Features of a Web Browser
+**১। Browser User Interface:** আমরা ব্রাউজার ওপেন করে যে ইন্টারফেস দেখতে পায় সেইটাই মূলত ইউজার ইন্টারফেস। ইউজারের সুবিধার কথা চিন্তা করে এখানে কিছু টুলস দেওয়া হয় যেমনঃ
 
-1. **Home button**
-2. **Address bar**
-3. **Refresh button**
-4. **Bookmarks**
-5.  **Tabbed browsing**
+**Address Bar:** যেখানে একজন ব্যাবহারকারী তার প্রয়োজনীয় লিখা লিখে তথ্য খুজে।
 
-    <figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Browser structure<br>ref : <a href="https://www.javatpoint.com/browsers">https://www.javatpoint.com/browsers</a></p></figcaption></figure>
+**Previews button:** যা দিয়ে আমরা একটা ওয়েব সাইটের পিছনের পেইজ গুলো দেখি।
 
+**Next Button:** যা দিয়ে আমরা মূলত ওয়েব সাইটের সামনের পেইজে যায়।
 
+এরকম আরো অনেক সুবিধা যুক্ত থাকে।
 
-not completed
+**২। ব্রাউজার ইঞ্জিনঃ-**
 
+এইতা মূলত ব্রাউজারে একদম মুল উপদান যেইটা সব ব্রাউজারেই বিদ্যমান রয়েছে। এইটি মুলত রেন্ডারিং ইঞ্জিন এবং ইউজার ইন্টারফেসের মাঝে অনেকটা ব্রিজ হিসেবে কাজ করে।

@@ -51,4 +51,6 @@ description: >-
 
 **Data Storage/Persistence:**
 
-[https://www.chromium.org/blink/](https://www.chromium.org/blink/)
+{% embed url="https://www.chromium.org/blink/" %}
+
+{% embed url="https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink" %}

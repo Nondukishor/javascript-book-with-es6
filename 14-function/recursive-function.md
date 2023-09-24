@@ -60,11 +60,9 @@ if (num > 0) {
 
 #### এখন একটু জেনে নেই এইটা আসলে কিভাবে এক্সকিউট হচ্ছে?&#x20;
 
-
+<figure><img src="../.gitbook/assets/recusrive.jpg" alt=""><figcaption><p> recursive function execution flow</p></figcaption></figure>
 
 #### কখন আপনি রিকার্সিভ ফাংশন ব্যাবহার করবেন  ?&#x20;
-
-<figure><img src="../.gitbook/assets/recusrive.jpg" alt=""><figcaption><p> recursive function execution flow</p></figcaption></figure>
 
 ১। যখন আপনি কোন একটা ফাংশনকে ছোট ছোট সাব প্রব্লেমে ভাগ করতে চান। এইটাকে divide-and-conquer approach নামেও  বলা হয়ে থাকে।&#x20;
 

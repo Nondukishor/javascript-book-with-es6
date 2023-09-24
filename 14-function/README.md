@@ -37,7 +37,7 @@ description: >-
 
 ফাংশন মানে যে কাজ সেটা আগেই বলেছি।অর্থাৎ বড় বড় প্রোগ্রামের কোন নির্দিষ্ট কাজ কে ছোট ছোট কাজে ভাগ করে নেওয়াকে ফাংশন বলে। আপনি এইটাকে অনেকটা জুস মেশিনের সাথে তুলনা করতে পারেন। যেখানে আপনি কিছু একটা দিবেন আর ফলাফল স্বরূপ কিছু একটা পাবেন। সেটা হতে পারে undefined, null, string, number অথাবা অন্য কোন ভ্যালু এবার আসেন একটু দেখে নেই কিভাবে ফাংশন লিখতে হবে।
 
-syntex:-
+syntax:-
 
 ```javascript
 //regular function syntex:
@@ -54,7 +54,7 @@ const nameofFunction=(argument)=>{
 
 প্যারামিটার ও রিটার্ন টাইপের উপর ভিত্তি করে ফাংশন চার ভাগে ভাগ করা যায়। যথাঃ-
 
-**১। Fuction without Argument and no return.**
+**১। Function without Argument and no return.**
 
 **2। Function with Argument and no return.**
 
@@ -62,7 +62,7 @@ const nameofFunction=(argument)=>{
 
 **৪। Function without argument but return.**
 
-**Fuction without Argument and no return:-** এইধরনের ফাংশনের ক্ষেত্রে কোন আরগুমেন্ট থাকে না এবং কোন রিটার্ন ভ্যালু ও থাকে না।
+**Function without Argument and no return:-** এইধরনের ফাংশনের ক্ষেত্রে কোন আরগুমেন্ট থাকে না এবং কোন রিটার্ন ভ্যালু ও থাকে না।
 
 example:
 

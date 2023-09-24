@@ -1,6 +1,6 @@
 # রিকার্সিভ ফংশন (Recursive Function)
 
-#### **রিকার্সিভ ফাংশনঃ-**
+#### রিকার্সিভ**রিকার্সিভ ফাংশনঃ-**
 
 যে ফংশন নিজে নিজেকে কল করে সে ফাংশন কে রিকার্সিভ ফাংশন বলে। বিষয়টা একদম সহজ আমরা আস্তে এর গভীরে যাব। ধীরে কোড বুঝে পরতে হবে এবং কোড গুলো লিখে এক্সিকিউট করতে হবে।&#x20;
 
@@ -60,9 +60,11 @@ if (num > 0) {
 
 #### এখন একটু জেনে নেই এইটা আসলে কিভাবে এক্সকিউট হচ্ছে?&#x20;
 
-<figure><img src="../.gitbook/assets/RECUSIVE.jpg" alt=""><figcaption><p>recursive function execution flow</p></figcaption></figure>
+
 
 #### কখন আপনি রিকার্সিভ ফাংশন ব্যাবহার করবেন  ?&#x20;
+
+<figure><img src="../.gitbook/assets/recusrive.jpg" alt=""><figcaption><p> recursive function execution flow</p></figcaption></figure>
 
 ১। যখন আপনি কোন একটা ফাংশনকে ছোট ছোট সাব প্রব্লেমে ভাগ করতে চান। এইটাকে divide-and-conquer approach নামেও  বলা হয়ে থাকে।&#x20;
 

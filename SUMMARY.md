@@ -41,7 +41,7 @@
   * [হাইয়ার অর্ডার ফাংশন (Higher Order Function)](14-function/higher-order-function.md)
   * [কারিং ফাংশন (Currying function)](14-function/currying-function.md)
   * [নাম ক্রিয়াকলাপ অস্তিত্ব(NFE)](14-function/nfe.md)
-  * [পুনরাবৃত্ত ক্রিয়াকলাপ (Recursive Function)](14-function/recursive-function.md)
+  * [রিকার্সিভ ফংশন (Recursive Function)](14-function/recursive-function.md)
   * [উদ্ভাবক ক্রিয়াকলাপ (Generator Function)](14-function/generator-function.md)
 * [ক্লাস ও অবজেক্ট অরিয়েন্টেড (class & OOP)](class/README.md)
   * [মেম্বার ফাংশন (Member Function)](class/member-function.md)

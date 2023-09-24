@@ -15,7 +15,7 @@ description: >-
 
 ## **ব্রাঊজারে কি কি থাকে (**What is in the browser?)
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **১। Browser User Interface:**&#x20;
 

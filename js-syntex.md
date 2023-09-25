@@ -17,9 +17,8 @@ description: >-
 
 #### **Inner Script**
 
+{% code title="firstProgramSyntex.html" overflow="wrap" lineNumbers="true" %}
 ```html
-First Syntex:
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,17 +28,29 @@ First Syntex:
     <title> প্রথম প্রোগ্রাম হ্যাঁলো বাংলাদেশ </title>
 </head>
 <body>
-   
     <script>
         console.log('হ্যাঁলো বাংলাদেশ');
     </script>
 </body>
 </html>
 ```
+{% endcode %}
 
-প্রথমে এখানে যা করা হয়েছে সেটি হলো । .html extension সংযোগে যেকোনো নামের একটা ফাইল বানানো হয়েছে সেটা হতে পারে index.html সেটা হতে পারে firstProgramSyntex.html বা আপানার পছন্দ অনুযায়ী নামের । HTML-5 এর কিছু কোড লিখা হয়েছে । তারপর নিচের দিকে একটু লক্ষ্য করলে দেখতে পারবেন নামের একটা ট্যাগ লিখা হয়েছে এবং তার মধ্যে কোড লিখা হয়েছে console.log('হ্যাঁলো বাংলাদেশ'); এবার আপনি রান করেন তাইলে ব্রাউজারে কিছু দেখতে পাবেন না পাবেন কেমন করে আউট পুট তো কনসোলে আছে তাহলে আপনি যদি ক্রোম ব্যবহারকারী হয়ে থাকেন তাহলে f12 press করেন । আর তাহলে ওপেন হয়ে যাবে কনসোল আর দেখতে পাবেন আউটপুট ।
+{% hint style="info" %}
+১। প্রথমে একটা .html extension যুক্ত ফাইল বানানো হয়েছে।&#x20;
 
-```reStructuredText
+২। HTML-5 এর বেসিক কিছু কোড লিখা হয়েছে।
+
+৩। ১৩ নং লাইনে script নামে একটা ট্যাগ যুক্ত করা হয়েছে ।&#x20;
+
+৪। script ট্যাগ এর ভিতরে `console.`<mark style="color:purple;">`log`</mark>`('হ্যাঁলো বাংলাদেশ'); কোডটা লিখা হয়েছে।`
+
+`৫। ব্রাউজার দিয়ে ফাইলটাকে open করা হয়েছে।`&#x20;
+{% endhint %}
+
+**Output:**
+
+```sh
 হ্যাঁলো বাংলাদেশ
 ```
 

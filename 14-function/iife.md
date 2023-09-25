@@ -1,6 +1,8 @@
 # আই. আই. এফ. ই. (IIFE)
 
-**IIFE** এর পুরো নাম হলো **(Immediately Invoked Function Expression)**। এই এর আসলে নাম হওয়া উচিত ছিল আমার মাঝে মাঝে মনে হয় **anonymous self-invoking function** কারন এইটা আসলে একটা নাম ছাড়া ফাংশন কে কল করে যা আপনার কল করা লাগবে না মানে হলো সে নিজেই নিজেকে কল করে আরকি।&#x20;
+### IIFE কি?&#x20;
+
+**IIFE** এর পুরো নাম হলো **(Immediately Invoked Function Expression)** বাংলা অর্থ হলো **অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ অভিব্যক্তি।** এর আসলে নাম হওয়া উচিত ছিল আমার মাঝে মাঝে মনে হয় **anonymous self-invoking function** কারন এইটা আসলে একটা নাম ছাড়া ফাংশনকে কল করে যা আপনার কল করা লাগবে না। মানে হলো সে নিজেই নিজেকে কল করে আরকি।&#x20;
 
 লিখার নিয়মঃ
 
@@ -22,9 +24,9 @@
 })()
 ```
 
-**কখন আপনি অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ অভিব্যক্তি ব্যাবহার করবেন (IIFE)?**
+### **কখন আপনি অবিলম্বে আমন্ত্রিত ক্রিয়াকলাপ অভিব্যক্তি ব্যাবহার করবেন (IIFE)?**
 
-১। আপনি যখন চাইবেন আপনার কিছু কোড গ্লোবাল স্কোপ থেকে আলাদা করতে।
+#### ১। আপনি যখন চাইবেন আপনার কিছু কোড গ্লোবাল স্কোপ থেকে আলাদা করতে।
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```javascript
@@ -59,7 +61,7 @@ console.log(counterModule.getCount()); // Output: 0
 ```
 {% endcode %}
 
-২। মডিউল প্যাটার্ন নামে একটা বিষয় আছে সেইটা যখন লিখতে যাবেন।
+#### ২। মডিউল প্যাটার্ন নামে একটা বিষয় আছে সেইটা যখন লিখতে যাবেন।
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```javascript
@@ -93,7 +95,7 @@ myModule.publicMethod(); // Output: This is a public method / This is a private 
 ```
 {% endcode %}
 
-৩। প্রাইভেট Asynchronous Operations অপারেশন এর ক্ষেত্রে।
+#### ৩। প্রাইভেট Asynchronous Operations অপারেশন এর ক্ষেত্রে।
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```javascript

@@ -17,7 +17,7 @@ description: >-
 
 #### **Inner Script**
 
-{% code title="firstProgramSyntex.html" overflow="wrap" lineNumbers="true" %}
+{% code title="inline-script.html" overflow="wrap" lineNumbers="true" %}
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +37,7 @@ description: >-
 {% endcode %}
 
 {% hint style="info" %}
-১। প্রথমে একটা .html extension যুক্ত ফাইল বানানো হয়েছে।&#x20;
+১। প্রথমে একটা .html extension যুক্ত ফাইল বানানো হয়েছে। নাম দেওয়া হয়েছে **inline-script.html**
 
 ২। HTML-5 এর বেসিক কিছু কোড লিখা হয়েছে।
 
@@ -88,16 +88,17 @@ Second syntex:
 
 ৩। body ট্যাগ এর ভিতরে form ট্যাগ যুক্ত করে তাতে আরেকটা button ট্যাগ যুক্ত করা হয়েছে।
 
-৪। button ট্যাগ এর ১৩ নং লাইনের মতো করে onclick এট্রিভিউটে একটা কোড যুক্ত করা হয়েছে onclick="return confirm('আমি তোমায় ভালবাসি')"
+৪। button ট্যাগ এর ১৩ নং লাইনের মতো করে onclick এট্রিভিউটে একটা কোড যুক্ত করা হয়েছে `onclick="return confirm('আমি তোমায় ভালবাসি')"`
 
 ৫। সব শেষে আগের মতো করে ব্রাউজারে open করা হয়েছে।
 
 ৬। **ক্লিক করে জেনে নিন button** টাতে ক্লিক করলে একটা মেসেস দেখাবে **আমি তোমায় ভালবাসি**
 {% endhint %}
 
+#### **External Script File:**
+
+{% code title="index.html" overflow="wrap" lineNumbers="true" %}
 ```html
-<!--Third Syntext:-->
-<!--index.html:-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,15 +108,28 @@ Second syntex:
     <title> তৃতীয় প্রোগ্রাম বাংলাদেশ সবুজ শ্যামল দেশ  </title>
 </head>
 <body>
-  <script src="index.js"></script>
+  <script src="external-script.js"></script>
 </body>
 </html>
 ```
+{% endcode %}
 
+{% code title="external-script.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
-//index.js
-<!-- js file include from spearate file with .js extenstion-->
 console.log('বাংলাদেশ সবুজ শ্যামল দেশ');
 ```
+{% endcode %}
 
-এই প্রোগ্রামের জন্য যা করা হয়েছে প্রথমে আগের মতো একটি HTML ফাইল বানানো হয়েছে তাতে কিছু HTML-5 এর কোড লিখা হয়েছে। নিচের দিকে তাকালে দেখবেন index.js একটা ফাইল তৈরি করা হয়েছে । আর সেইটা তে console.log('বাংলাদেশ সবুজ শ্যামল দেশ'); লিখাটা লিখা হয়েছে। এবার এই index.js ফাইল টিকে যুক্ত করে নিতে হবে । কেমন করে করবেন এত বড় কঠিন কাজ ? আরে বাবা ! এত কঠিন না শুধু লিখতে হবে ১৩ নাম্বার লাইনের মতো করে তারপর ইমপ্লিমেন্ট করে দিতে হবে সেই ফাইলটি আর ব্যস রান করিয়ে নিন ।এখন আপনার কাজ হচ্ছে আপনি এইরকম আরো কিছু প্রোগ্রাম লিখবেন যেখানে আপনি আপনার প্রিয় দুইজন মানুষ এবং আমাদের দেশকে নিয়ে লিখবেন। তো শুরু করে দিন আর লিখা শেষ হলে আমাকে মেইল করে জানিয়ে দিন pro.nipu@gmail.com এই মেইলে মাধ্যমে।
+{% hint style="info" %}
+১। প্রথমে একটা index.html নামে ফাইল বানিয়ে নেওয়া হয়েছে এবং আগের মতো করে বেসিক HTML-5 এর কিছু কোড লিখে নেওয়া হয়েছে।&#x20;
+
+২। ১০ নং লাইনের মতো করে script যুক্ত করা হয়েছে এবং তাতে src নামে যে এট্রিবিউট আছে সেটাতে আমাদের **external-script.js** ফাইলটি যুক্ত করে দেওয়া হয়েছে।&#x20;
+
+৩। **external-script.js** নামে ফাইল করে তাতে _`console.log('বাংলাদেশ সবুজ শ্যামল দেশ');`_ কোডটি লিখা হয়েছে।&#x20;
+
+৪। পরে ব্রাউজার দিয়ে আগের মতো করে open করা হয়েছে।&#x20;
+
+৫। ব্রাউজারে কনসোল open করলে দেখা যাবে _**`বাংলাদেশ সবুজ শ্যামল দেশ`**_ লিখা দেখা যাচ্ছে।&#x20;
+{% endhint %}
+
+এখন আপনার কাজ হচ্ছে আপনি এইরকম আরো কিছু প্রোগ্রাম লিখবেন যেখানে আপনি আপনার প্রিয় দুইজন মানুষ এবং আমাদের দেশকে নিয়ে লিখবেন। তো শুরু করে দিন আর লিখা শেষ হলে আমাকে মেইল করে জানিয়ে দিন pro.nipu@gmail.com এই মেইলে মাধ্যমে।

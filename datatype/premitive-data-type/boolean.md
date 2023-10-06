@@ -51,3 +51,24 @@ output:
 ```javascript
 true
 ```
+
+#### Boolean Object:&#x20;
+
+ভ্যালু ছাড়া সব কিছু Boolean এ false হিসবে কাউন্ট করে । আবার `0,"",-0,`**`NaN,undefined,null`**কে Boolean false হিসেবে ধরে নেই । চলুন নিচে এগুলোর উদাহরণ দেখে নেই।&#x20;
+
+```javascript
+let zoro = 0;
+let one = 1;
+let emptyString = "";
+let nullvalue = null;
+let undefinedValue = undefined;
+let NaNvalue = NaN;
+
+console.log(Boolean(zero)) // false
+console.log(Boolean(one)) // false
+console.log(Boolean(emptyString)) // false
+console.log(Boolean(nullvalue)) // false
+console.log(Boolean(undefinedValue)) // false
+console.log(Boolean(NaNvalue)) // false
+```
+

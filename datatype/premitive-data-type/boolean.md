@@ -72,3 +72,15 @@ console.log(Boolean(undefinedValue)) // false
 console.log(Boolean(NaNvalue)) // false
 ```
 
+আপনি চাইলে এইটার নতুন অবজেক্ট বানাতে পারেন যেমনঃ-
+
+```javascript
+let boolValue1 = new Boolean(false);
+let boolValue2 = new Boolean(false);
+```
+
+কিন্তু এইক্ষেত্রে একটা অবজেক্ট আরেকটা অবজেক্টের সমান হবে না যেমনঃ-
+
+```javascript
+console.log(boolValue1===boolValue2) // false
+```

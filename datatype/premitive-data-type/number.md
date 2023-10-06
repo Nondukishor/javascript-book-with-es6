@@ -6,6 +6,7 @@
 
 একটা উদাহরণ না দেখলে মনে আবার কষ্ট পাবেন তাই একটা হাতে কড়ি করে নেই।
 
+{% code title="number.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
 var number1=10; //integer
 var number2=11.05; // decimal/float
@@ -15,9 +16,20 @@ var number5=0.255e3 //decimal exponential notation
 
 console.log(typeof number1,typeof number2, typeof number3, typeof number4, typeof number5)
 ```
+{% endcode %}
 
 output:
 
 ```javascript
 number number number number number
 ```
+
+#### NaN - Not a Number:
+
+#### Infinity:&#x20;
+
+#### Hexadecimal:
+
+#### Number Object JavaScript:&#x20;
+
+#### JavaScript Number Methods:

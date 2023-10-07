@@ -113,3 +113,85 @@ console.log(Number.NaN); //Represents "Not-a-Number," used to indicate an undefi
 {% endcode %}
 
 #### JavaScript Number Methods:
+
+toFixed
+
+{% code lineNumbers="true" %}
+```javascript
+let num = 42.12345;
+let formatted = num.toFixed(2); // "42.12"
+```
+{% endcode %}
+
+toPrecision
+
+{% code lineNumbers="true" %}
+```javascript
+let num = 123.456789;
+let formatted = num.toPrecision(4); // "123.5"
+```
+{% endcode %}
+
+toExponential
+
+{% code lineNumbers="true" %}
+```javascript
+let num = 12345;
+let formatted = num.toExponential(2); // "1.23e+4"
+
+```
+{% endcode %}
+
+toString
+
+{% code lineNumbers="true" %}
+```javascript
+let num = 255;
+let binaryString = num.toString(2); // "11111111"
+```
+{% endcode %}
+
+parseInt
+
+{% code lineNumbers="true" %}
+```javascript
+let binaryString = "1010";
+let decimalNumber = parseInt(binaryString, 2); // 10
+```
+{% endcode %}
+
+isNaN
+
+{% code overflow="wrap" lineNumbers="true" %}
+```javascript
+isNaN(42);      // false
+isNaN("hello"); // true
+```
+{% endcode %}
+
+isFinite
+
+{% code overflow="wrap" lineNumbers="true" %}
+```javascript
+isFinite(42);      // true
+isFinite(Infinity); // false
+```
+{% endcode %}
+
+isInteger
+
+{% code overflow="wrap" lineNumbers="true" %}
+```javascript
+Number.isInteger(5);   // true
+Number.isInteger(5.5); // false
+```
+{% endcode %}
+
+isSafeInteger
+
+{% code overflow="wrap" lineNumbers="true" %}
+```
+Number.isSafeInteger(42);                   // true
+Number.isSafeInteger(9007199254740992);    // false (outside the safe integer range)
+```
+{% endcode %}

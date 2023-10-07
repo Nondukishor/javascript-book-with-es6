@@ -58,14 +58,19 @@ console.log(parseInt("Hello"));   // NaN
 console.log(NaN + 5);   // NaN
 ```
 
-#### Infinity[^1]:&#x20;
+#### Infinity
 
+Infinity জাভাস্ক্রিপ্টে একটি বিশেষ নিউমেরিক ভ্যালু। Infinity সাধারণত যেকোনো নাম্বার থেকে বড় নাম্বারকে বুঝায়। Infinity ধনাত্মক বা ঋণাত্মক উভয় হতে পারে। Infinity শব্দের অর্থ হলো অসীম যার মানে হলো সীমাহীন।&#x20;
 
+কিছু উদাহরণ এর মাধ্যমে চলুন দেখে নেইঃ-&#x20;
+
+```
+console.log(1 / 0);     // Infinity
+console.log(-1 / 0);    // -Infinity
+```
 
 #### Hexadecimal:
 
 #### Number Object JavaScript:&#x20;
 
 #### JavaScript Number Methods:
-
-[^1]: 

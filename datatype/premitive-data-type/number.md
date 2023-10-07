@@ -190,7 +190,7 @@ Number.isInteger(5.5); // false
 isSafeInteger
 
 {% code overflow="wrap" lineNumbers="true" %}
-```
+```javascript
 Number.isSafeInteger(42);                   // true
 Number.isSafeInteger(9007199254740992);    // false (outside the safe integer range)
 ```

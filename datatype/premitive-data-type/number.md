@@ -100,4 +100,16 @@ console.log(sum); // Outputs: 25
 
 #### Number Object JavaScript:&#x20;
 
+নাম্বার অবজেক্ট জাভাস্ক্রিপ্টের গ্লোবাল প্রোপার্টি যেইটা জাভাস্ক্রিপ্টে বিভিন্ন ধরণের প্রোপার্টি দিয়ে থাকে। এইছাড়াও এইটি জাভাস্ক্রিপ্টের ইউটিলিটি ফাংশন দিয়ে থাকে।&#x20;
+
+{% code overflow="wrap" lineNumbers="true" %}
+```javascript
+console.log(Number.MAX_VALUE); //Represents the largest positive finite numeric value representable in JavaScript.
+console.log(Number.MIN_VALUE); //Represents the smallest positive finite numeric value representable in JavaScript.
+console.log(Number.POSITIVE_INFINITY); //Represents positive infinity.
+console.log(Number.NEGATIVE_INFINITY);//Represents negative infinity.
+console.log(Number.NaN); //Represents "Not-a-Number," used to indicate an undefined or unrepresentable value in mathematical operations.
+```
+{% endcode %}
+
 #### JavaScript Number Methods:

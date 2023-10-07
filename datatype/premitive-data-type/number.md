@@ -71,7 +71,13 @@ console.log(-1 / 0);    // -Infinity
 ```
 {% endcode %}
 
+জাভাস্ক্রিপ্টে সর্বোচ্ছ নাম্বার রিপ্রেজেন্টশন পাস করলে মানে পার্সিং ওভার ফ্লো হলে Infinity হয়।&#x20;
 
+{% code lineNumbers="true" %}
+```javascript
+console.log(parseFloat("1e309"));   // Infinity
+```
+{% endcode %}
 
 #### Hexadecimal:
 

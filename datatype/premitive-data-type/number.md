@@ -81,6 +81,17 @@ console.log(parseFloat("1e309"));   // Infinity
 
 #### Hexadecimal:
 
+জাভাস্ক্রিপ্টে 0x প্রিফিক্স যুক্ত করার মাধ্যমে হেক্সাডেসিমেল লিখা হয় । ০ -৯ এর পরের সংখ্যা গুলোকে A-F  দিয়ে প্রকাশ করা হয়।&#x20;
+
+উদাহরণঃ-
+
+{% code lineNumbers="true" %}
+```javascript
+let hexNumber = 0x1A; // This represents the decimal number 26
+console.log(hexNumber); // Outputs: 26
+```
+{% endcode %}
+
 #### Number Object JavaScript:&#x20;
 
 #### JavaScript Number Methods:

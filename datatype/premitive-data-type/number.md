@@ -26,10 +26,46 @@ number number number number number
 
 #### NaN - Not a Number:
 
-#### Infinity:&#x20;
+NaN এর পুরো অর্থ হলো Not a Number। যখন জাভাস্ক্রিপ্ট নাম্বারকে Identify করতে পারে না তখন সে সেটাকে NaN হিসবে চিহ্নিত করে নেয়। NaN কে চেক করার জন্য জাভাস্কিপ্টে একটা প্রি-বিল্ট মেথড আছে isNaN নামে।
+
+চলুন একটা উদাহরণ দেখে নেইঃ
+
+{% code lineNumbers="true" %}
+```javascript
+console.log(isNaN(123));       // false
+console.log(isNaN("one"));     // false
+```
+{% endcode %}
+
+#### চলুন জেনে নিই কখন কখন NaN হয় ?
+
+* **গাণিতিক অপারেশনের ক্ষেত্রেঃ-**
+
+```javascript
+console.log(0 / 0);    // NaN
+console.log(Math.sqrt(-1));    // NaN
+```
+
+* **ডাটা পার্সিং এর ক্ষেত্রেঃ-**
+
+```javascript
+console.log(parseInt("Hello"));   // NaN
+```
+
+* **ডাটা ক্যালকুলেশনের ক্ষেত্রেঃ-**&#x20;
+
+```javascript
+console.log(NaN + 5);   // NaN
+```
+
+#### Infinity[^1]:&#x20;
+
+
 
 #### Hexadecimal:
 
 #### Number Object JavaScript:&#x20;
 
 #### JavaScript Number Methods:
+
+[^1]: 

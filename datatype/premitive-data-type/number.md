@@ -88,7 +88,13 @@ console.log(parseFloat("1e309"));   // Infinity
 {% code lineNumbers="true" %}
 ```javascript
 let hexNumber = 0x1A; // This represents the decimal number 26
+let hex1 = 0xA; // 10 in decimal
+let hex2 = 0xF; // 15 in decimal
+
 console.log(hexNumber); // Outputs: 26
+
+let sum = hex1 + hex2; // 25 in decimal
+console.log(sum); // Outputs: 25
 ```
 {% endcode %}
 

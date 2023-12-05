@@ -1,4 +1,4 @@
-# আনয়ন করা(fetch)
+# ফেচ (fetch)
 
 ২০১৫ সালে  **XMLHttpRequest** এর উত্তরসূরি হিসেবে **fetch API** টা আনা হয় বর্তমানে এইটার জনপ্রিয়তা দিন দিন বৃদ্ধি পাচ্ছে আর সামনে পাবে আরো। বর্তমানে সব ব্রাউজারে এইটা সাপোর্ট করে এবং বিল্ড ইন হওয়ার কারণে খুব ভাল পারফর্মেন্স করছে।&#x20;
 
@@ -27,6 +27,7 @@ fetch('url')
 
 অথবা
 
+{% code lineNumbers="true" %}
 ```javascript
 fetch('url', {
   Method: 'POST',
@@ -48,5 +49,6 @@ fetch('url', {
     //handle error
   });
 ```
+{% endcode %}
 
 ref: [https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests](https://www.topcoder.com/thrive/articles/fetch-api-javascript-how-to-make-get-and-post-requests)

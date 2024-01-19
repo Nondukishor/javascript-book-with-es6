@@ -8,7 +8,7 @@
 6. [ব্রাউজার পরিচিতি](browser-intro.md)[ ](https://nipu.gitbook.io/coding-js/browser-intro)(Browser Intro)
 7. [ভাল এডিটর বা আইডিই।](https://nipu.gitbook.io/coding-js/editor-ide) (Good Editor or IDE)
 8. [জাভাস্ক্রিপ্টের ইঞ্জিন](https://nipu.gitbook.io/coding-js/js-engine) (Engine of javascript)
-9. [প্রথম প্রোগ্রাম =হ্যালো বাংলাদেশ ।](https://nipu.gitbook.io/coding-js/hello-bangladesh) (Hello program = bangladesh)
+9. [প্রথম প্রোগ্রাম =হ্যালো বাংলাদেশ ।](https://nipu.gitbook.io/coding-js/hello-bangladesh) (First Program= Hello bangladesh)
 10. [সিনট্যাক্স নিয়ে যত কথা।](https://nipu.gitbook.io/coding-js/js-syntex) (Javascript Syntex)
 11. [ভেরি + এবল =ভেরিয়্যাবল কি?](https://nipu.gitbook.io/coding-js/javascript\_variable) (vari+able = variable)
 12. [ডেটা টাইপ](https://nipu.gitbook.io/coding-js/datatype) (Data type)

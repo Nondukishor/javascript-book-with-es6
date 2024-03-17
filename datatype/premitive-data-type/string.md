@@ -42,8 +42,27 @@ const lastLetter = word[word.length - 1]; // t
 
 দুইটি স্ট্রিং কে সাধারণত যোগ চিহ্ন দিয়ে যুক্ত করা যায় কিন্তু আপনি চাইলে আরো একভাবে এই কাজটি করা যায় সেইটা হলো Template Strings। এইটা করার জন্য আপনাকে ব্যাবহার করতে হবে back-ticks (\`\`) symbol ব্যাবহার করতে হবে। আর ভিতরে কোন ভ্যারিয়েবল স্ট্রিং লিখার জন্য ${variableName} এইভাবে লিখতে হবে।&#x20;
 
+{% code lineNumbers="true" %}
 ```javascript
 const firstName = "John";
 const lastName = "Doe";
 const fullName = firstName + " " + lastName;
 ```
+{% endcode %}
+
+### কোন পজিশনে কোন স্ট্রিং আছে?
+
+একটা স্ট্রিং এর কোন পজিশনে কোন charecter আছে সেইটা বের করার জন্য জাভাস্ক্রিপ্টে একটা বিল্ড ইন মেথড আছে charAt(string\_position) নামে যেইটা মূলত স্ট্রিং পজিশন নিয়ে সেই পজিশনের charteter টা রিটার্ন করে দেয়।&#x20;
+
+{% code lineNumbers="true" %}
+```javascript
+const myName = "Nipu Chakraborty";
+console.log(myName.charAt(0)) // N
+console.log(myName.charAt(1)) // i
+console.log(myName.charAt(2)) // p
+console.log(myName.charAt(3)) // u
+```
+{% endcode %}
+
+উপরের কোডটা দেখলে বুঝতেই পারবেন যে charAt মেথড টা প্রতিবার পজিশন অনুযায়ী স্ট্রিং ক্যারেক্টার রিটার্ন করছে।&#x20;
+

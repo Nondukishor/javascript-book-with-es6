@@ -66,3 +66,28 @@ console.log(myName.charAt(3)) // u
 
 উপরের কোডটা দেখলে বুঝতেই পারবেন যে charAt মেথড টা প্রতিবার পজিশন অনুযায়ী স্ট্রিং ক্যারেক্টার রিটার্ন করছে।&#x20;
 
+### অনুশীলনঃ-&#x20;
+
+নিজের মেথড গুলো কি কাজ করে এবং কিভাবে ব্যাবহার করা যায় সে সম্পর্কে বিস্তারিত জানা।&#x20;
+
+```javascript
+String charCodeAt()
+String at()
+String [ ]
+String slice()
+String substring()
+String substr()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String repeat()
+String replace()
+String replaceAll()
+String split()
+```
+

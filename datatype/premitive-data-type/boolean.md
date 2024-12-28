@@ -54,7 +54,7 @@ true
 
 #### Boolean Object:&#x20;
 
-ভ্যালু ছাড়া সব কিছু Boolean এ false হিসবে কাউন্ট করে । আবার `0,"",-0,`**`NaN,undefined,null`**কে Boolean false হিসেবে ধরে নেই । চলুন নিচে এগুলোর উদাহরণ দেখে নেই।&#x20;
+ভ্যালু ছাড়া সব কিছু Boolean এ false হিসবে কাউন্ট করে । আবার `0,"",-0,`**`NaN,undefined,null`**&#x995;ে Boolean false হিসেবে ধরে নেই । চলুন নিচে এগুলোর উদাহরণ দেখে নেই।&#x20;
 
 ```javascript
 let zoro = 0;

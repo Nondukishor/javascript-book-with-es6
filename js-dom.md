@@ -9,4 +9,4 @@ description: >-
 
 ডোম এর পুরো অর্থ হলো Document Object Model। ব্রাঊজার যখন লোড হয় সাথে এই ডোম ক্রিয়েট হয় । এইটি মূলত একটি ট্রী যেখানে আমরা চাইলে জাস্ক্রিপ্ট দিয়ে নতুন ডোম বানাতে পারি অথবা ডোম এ পরিবর্তন করে ফেলতে পারি। অথবা চাইলে সিএসএস যুক্ত করতে পারি। ওয়েভ সাইটকে আরো বেশি আকর্ষনীয় করে তুলতে পারি।&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>image ref: <a href="https://www.w3schools.com/js/pic_htmltree.gif">https://www.w3schools.com/js/pic_htmltree.gif</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>image ref: <a href="https://www.w3schools.com/js/pic_htmltree.gif">https://www.w3schools.com/js/pic_htmltree.gif</a></p></figcaption></figure>

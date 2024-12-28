@@ -1,1 +1,3 @@
-![Book Cover](images/js-book-cover-page.jpg)
+# কোডিং JS
+
+![Book Cover](.gitbook/assets/js-book-cover-page.jpg)

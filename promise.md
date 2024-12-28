@@ -4,7 +4,7 @@
 
 
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 দেখে নেই প্রমিস কিভাবে লিখতে হবে?
 

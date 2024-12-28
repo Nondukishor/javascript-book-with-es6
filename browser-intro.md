@@ -11,11 +11,11 @@ description: >-
 
 ## প্রোটোকল এবং স্ট্যান্ডার্ডস (Protocols and Standards):
 
-ব্রাউজার সাধারণত সার্ভারের সাথে কমিনিউকেশন করার জন্য [http](https://en.wikipedia.org/wiki/HTTP) এবং [https](https://en.wikipedia.org/wiki/HTTPS) ইন্টারনেট [protoc](https://en.wikipedia.org/wiki/Internet\_Protocol)[ols ](https://en.wikipedia.org/wiki/Internet\_Protocol)অনুসরন করে .  এই protocal ইউজার কে ইমেজ ফাইল ও ওয়েব পেইজের বিভিন্ন কন্টেন্ট দেখাতে সাহায্য করে থাকে।&#x20;
+ব্রাউজার সাধারণত সার্ভারের সাথে কমিনিউকেশন করার জন্য [http](https://en.wikipedia.org/wiki/HTTP) এবং [https](https://en.wikipedia.org/wiki/HTTPS) ইন্টারনেট [protoc](https://en.wikipedia.org/wiki/Internet_Protocol)[ols ](https://en.wikipedia.org/wiki/Internet_Protocol)অনুসরন করে .  এই protocal ইউজার কে ইমেজ ফাইল ও ওয়েব পেইজের বিভিন্ন কন্টেন্ট দেখাতে সাহায্য করে থাকে।&#x20;
 
-## **ব্রাঊজারে কি কি থাকে (**What is in the browser?)
+## **ব্রাঊজারে কি কি থাকে (**&#x57;hat is in the browser?)
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 #### **১। Browser User Interface:**&#x20;
 
@@ -45,7 +45,7 @@ description: >-
 
 ব্রাউজারের রেন্ডারিং ইঞ্জিন হলো সেই মূল অংশ, যা ওয়েব পেজের কোডকে ব্যবহারকারীর কাছে দৃশ্যমান আকারে রূপান্তরিত করে। সহজ ভাষায় বলা যায়, এটি একটি অনুবাদক(transpiler), যা HTML, CSS, এবং JavaScript-এর মতো কোড ভাষাগুলোকে  আমাদের নিকটদেখা যায় এমন লেআউট, ফন্ট, রঙ, ছবি, এবং ইন্টারেক্টিভ ইলিমেন্ট হিসেবে রূপান্তরিত করে।
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 **কীভাবে কাজ করে?**
 

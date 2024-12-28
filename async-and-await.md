@@ -100,7 +100,7 @@ console.log(result)
 
 #### সিকুয়েন্সিয়াল প্রসেসঃ&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>সিকুয়েন্সিয়াল প্রসেস</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>সিকুয়েন্সিয়াল প্রসেস</p></figcaption></figure>
 
 উপরের চিত্র দেখে বুঝে যাবেন যে আমরা এইখানে একটা কাজের পর আরেকটা কাজ করছি এর এই বিষয়টা হচ্ছে সিকুয়েন্সিয়াল প্রসেস । যা জাভাস্ক্রিপ্ট ইন্টারপ্রেটারের মধ্যমে **Synchronous** ভাবে করে।&#x20;
 
@@ -153,7 +153,7 @@ Call to routine took 30.023713645003735 sec. expected time was 100 sec
 
 আসুন চিত্র এর মধ্যমে দেখি।
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>concurrency</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>concurrency</p></figcaption></figure>
 
 বুঝতেই পারছেন প্রথম ১০ সেকেন্ডে প্রথম টাস্ক কমপ্লিট করে ফেলে এবং টিক বাকি টাস্ক গুলো কমপ্লিট হতে ২০ সেকেন্ড লাগবে কারণ ইতিমধ্যেই ১০ সেকেন্ড অতিক্রম হয়ে গেছে পরবর্তী টাস্ক গুলো ২০ সেকেন্ড ধরে এক্সকিউট হয়ে একই সময় পরে আউটপুট দিবে।&#x20;
 
@@ -163,7 +163,7 @@ Call to routine took 30.023713645003735 sec. expected time was 100 sec
 
 **Parallelism** বিষয়টা দেখতে অনেকটা কনকারেন্সি এর মতো দেখালেও কিন্তু একই না । নিচের চিত্রটি দেখুন।
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>প্যারালাললিজম</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p>প্যারালাললিজম</p></figcaption></figure>
 
 একটু যদি ভাল করে লক্ষ্য করুন দেখবেন বিষয় একটু ভিন্নতা আছে আগের উদাহরণে কিন্তু আপনি একটা করছিলেন সব কিন্তু আমাদের এবারের চিত্রে কিন্তু আলাদা আলাদা মানুষ কাজ গুলো সম্পন্ন করছে। এবং তারা তাদের মত করে আলাদা স্পেসে করছে এবং আলাদা টাইমে করছে। এইটাই মূলত **প্যারালালিজম** । একই সময়ে ভিন্ন ভিন্ন থ্রেড দ্বারা কাজ করায় হচ্ছে **প্যারালালিজম।** আসুন এবার কোড করে বিষয়টা বুঝে নেই।&#x20;
 
